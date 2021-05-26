@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/menu_item1">
+        <menu>
+            <item
+                android:id="@+id/setting_app"
+                android:icon="@drawable/pic_setting"
+                android:title="@string/menu_item2">
+
+            </item>
+            <item
+                android:id="@+id/language_app"
+                android:icon="@drawable/pic_language"
+                android:title="@string/menu_item3">
+
+            </item>
+            <item
+                android:id="@+id/about_app"
+                android:icon="@drawable/pic_about"
+                android:title="@string/menu_item4">
+
+            </item>
+
+        </menu>
+    </item>
+
+    <item android:title="@string/menu_item5">
+        <menu>
+            <item
+                android:id="@+id/change_acc"
+                android:icon="@drawable/pic_cuser_w"
+                android:title="@string/menu_item6"></item>
+            <item
+                android:id="@+id/close_app"
+                android:icon="@drawable/pic_out"
+                android:title="@string/menu_item7">
+
+            </item>
+        </menu>
+
+    </item>
+
+</menu>

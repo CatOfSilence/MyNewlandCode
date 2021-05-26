@@ -1,0 +1,290 @@
+[
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\layout_v3.xml.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\layout\\v3.xml"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_collection_gas.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-hdpi\\collection_gas.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_curtain_stop_pressed_lower.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-hdpi\\curtain_stop_pressed_lower.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_tongdao2_unpressed.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-hdpi\\tongdao2_unpressed.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_collection_light.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-hdpi\\collection_light.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_chat_imformation.9.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-hdpi\\chat_imformation.9.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_collection_infrared_detector.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-hdpi\\collection_infrared_detector.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\menu_v2.xml.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\menu\\v2.xml"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_door_control_pressed.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-hdpi\\door_control_pressed.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_tongdao1_pressed.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-hdpi\\tongdao1_pressed.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_curtain_open_pressed.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-hdpi\\curtain_open_pressed.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_juxing_2.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-hdpi\\juxing_2.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_collection_co2.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-hdpi\\collection_co2.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_tongdao1_pressed_lower.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-hdpi\\tongdao1_pressed_lower.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_lamp_unpressed.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-hdpi\\lamp_unpressed.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_lijiamoshi.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-hdpi\\lijiamoshi.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bg.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-hdpi\\bg.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_lamp_pressed.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-hdpi\\lamp_pressed.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\layout_v2.xml.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\layout\\v2.xml"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\menu_v1.xml.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\menu\\v1.xml"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\menu_vmain.xml.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\menu\\vmain.xml"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_wind_speed_unpressed.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-hdpi\\wind_speed_unpressed.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_anfangmoshi.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-hdpi\\anfangmoshi.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_collection_dropsofwater.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-hdpi\\collection_dropsofwater.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_tongdao3_pressed.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-hdpi\\tongdao3_pressed.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_tongdao3_pressed_lower.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-hdpi\\tongdao3_pressed_lower.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_lux.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-hdpi\\lux.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_tongdao2_pressed.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-hdpi\\tongdao2_pressed.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_vmain.xml.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\layout\\activity_vmain.xml"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_curtain_stop_pressed.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-hdpi\\curtain_stop_pressed.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_tongdao1_unpressed.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-hdpi\\tongdao1_unpressed.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable_a.xml.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable\\a.xml"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_wind_speed_pressed_lower.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-hdpi\\wind_speed_pressed_lower.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_curtain_close_pressed.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-hdpi\\curtain_close_pressed.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_collection_pm.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-hdpi\\collection_pm.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_tongdao2_pressed_lower.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-hdpi\\tongdao2_pressed_lower.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_curtain_close_unpressed.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-hdpi\\curtain_close_unpressed.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\menu_main.xml.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_curtain_open_pressed_lower.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-hdpi\\curtain_open_pressed_lower.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_alarm_unpressed.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-hdpi\\alarm_unpressed.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_remote_controller.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-hdpi\\remote_controller.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_wind_speed_unpressed_pressed.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-hdpi\\wind_speed_unpressed_pressed.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_pa.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-hdpi\\pa.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_nm3.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-hdpi\\nm3.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_door_control_unpressed.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-hdpi\\door_control_unpressed.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\layout_v1.xml.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\layout\\v1.xml"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_lamp_pressed_lower.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-hdpi\\lamp_pressed_lower.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_collection_smoke.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-hdpi\\collection_smoke.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bb.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-hdpi\\bb.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_qingjingmoshi.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-hdpi\\qingjingmoshi.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_login_btn_unpressed.9.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-hdpi\\login_btn_unpressed.9.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_curtain_close_pressed_lower.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-hdpi\\curtain_close_pressed_lower.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_curtain_open_unpressed.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-hdpi\\curtain_open_unpressed.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable_b.xml.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable\\b.xml"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_curtain_stop_unpressed.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-hdpi\\curtain_stop_unpressed.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_alarm_pressed.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-hdpi\\alarm_pressed.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_logo.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-hdpi\\logo.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_collection_thermometer.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-hdpi\\collection_thermometer.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_wind_speed_pressed.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-hdpi\\wind_speed_pressed.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_chuanglian.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-hdpi\\chuanglian.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_door_control_pressed_lower.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-hdpi\\door_control_pressed_lower.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_tongdao3_unpressed.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-hdpi\\tongdao3_unpressed.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_collection_pressure.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-hdpi\\collection_pressure.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_guangzhaomoshi.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-hdpi\\guangzhaomoshi.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\menu_v3.xml.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\menu\\v3.xml"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_juxing_1.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-hdpi\\juxing_1.png"
+    },
+    {
+        "merged": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_alarm_pressed_lower.png.flat",
+        "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\drawable-hdpi\\alarm_pressed_lower.png"
+    }
+]

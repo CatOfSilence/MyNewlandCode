@@ -1,0 +1,4 @@
+#Mon Sep 21 10:30:38 CST 2020
+base.0=E\:\\Workspace\\AnalogDemo\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

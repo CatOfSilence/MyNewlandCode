@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"/>
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        app:layout_constraintTop_toBottomOf="@+id/viewPager2">
+
+        <RadioButton
+            android:id="@+id/rb1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/tab1"
+            android:checked="false"
+            android:text="微信"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="15sp"
+            />
+
+        <RadioButton
+            android:id="@+id/rb2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="通讯录"
+            android:drawableTop="@drawable/tab2_off"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:button="@null" />
+
+        <RadioButton
+            android:id="@+id/rb3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="发现"
+            android:gravity="center"
+            android:drawableTop="@drawable/tab3_off"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:button="@null" />
+
+        <RadioButton
+            android:id="@+id/rb4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="我"
+            android:gravity="center"
+            android:drawableTop="@drawable/tab4_off"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:button="@null" />
+    </RadioGroup>
+</LinearLayout>

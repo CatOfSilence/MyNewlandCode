@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="60sp"
+        android:textColor="#000"
+        android:text="温度 > "
+        app:layout_constraintVertical_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+    <EditText
+        android:id="@+id/ed_wd"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textSize="60sp"
+        android:textColor="#000"
+        android:text=""
+        android:inputType="number"
+        app:layout_constraintLeft_toRightOf="@id/tv1"
+        app:layout_constraintTop_toTopOf="@id/tv1"
+        app:layout_constraintBottom_toBottomOf="@id/tv1"/>
+    <Button
+        android:id="@+id/bt_wd"
+        android:layout_width="350dp"
+        android:layout_height="120dp"
+        android:textSize="50sp"
+        android:textColor="#000"
+        android:text="确定"
+        app:layout_constraintVertical_bias="0.8"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

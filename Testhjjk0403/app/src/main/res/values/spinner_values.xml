@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sp_str">
+        <item>COM0</item>
+        <item>COM1</item>
+        <item>COM2</item>
+        <item>COM3</item>
+    </string-array>
+</resources>

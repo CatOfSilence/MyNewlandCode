@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:background="#6b6b6b"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="8dp"
+        android:background="#6b6b6b"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/listview" />
+
+    <ImageView
+        android:id="@+id/iv1"
+        android:layout_width="119dp"
+        android:layout_height="117dp"
+        android:src="#06d0ef"
+        app:layout_constraintBottom_toTopOf="@+id/tv1"
+        app:layout_constraintEnd_toStartOf="@+id/tv1"
+        app:layout_constraintHorizontal_bias="0.901"
+        app:layout_constraintStart_toEndOf="@+id/tv1"
+        app:layout_constraintTop_toBottomOf="@+id/tv1"
+        app:layout_constraintVertical_bias="0.515" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="赵子龙"
+        android:textColor="#000"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/iv1"
+        app:layout_constraintStart_toEndOf="@+id/iv1"
+        app:layout_constraintTop_toTopOf="@+id/iv1"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="344dp"
+        android:text="TextView"
+        android:background="@drawable/kuang"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv1">
+
+    </ListView>
+
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="8dp"
+        android:textSize="30sp"
+        android:background="@drawable/kuang"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv3" />
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:text="发送"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.84"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ed1" />
+
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:text="关闭"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.94"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ed1" />
+
+</android.support.constraint.ConstraintLayout>

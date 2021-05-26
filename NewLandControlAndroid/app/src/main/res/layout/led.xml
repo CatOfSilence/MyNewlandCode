@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight="1.4">
+        <EditText
+            android:id="@+id/ed_led"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:hint="请输入要显示的内容"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="位置："
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_weizhi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="左移"
+            android:textColor="#2baaea"
+            android:textSize="20sp"
+            android:layout_marginRight="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="速度："
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_speed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="一级"
+            android:textColor="#fc4c86"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="停止时间："
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_stoptime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3 秒"
+            android:textColor="#81f453"
+            android:textSize="20sp"
+            android:layout_marginRight="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="有效时间："
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10 秒"
+            android:textColor="#fd592b"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/bt_led_open"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_margin="20dp"
+            android:text="开启"/>
+
+        <Button
+            android:id="@+id/bt_led_close"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_margin="20dp"
+            android:text="关闭"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/bt_weizhi"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_margin="20dp"
+            android:text="位置"/>
+
+        <Button
+            android:id="@+id/bt_speed"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_margin="20dp"
+            android:text="速度" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/bt_stoptime"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_margin="20dp"
+            android:text="停止时间" />
+
+        <Button
+            android:id="@+id/bt_time"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_margin="20dp"
+            android:text="有效时间" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/bt_send"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_margin="20dp"
+            android:text="发送内容" />
+    </LinearLayout>
+</LinearLayout>

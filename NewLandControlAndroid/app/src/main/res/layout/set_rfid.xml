@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white_back">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tv_rfid_type_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="连接方式："
+            android:textColor="#FF9800"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.2"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.65" />
+
+        <TextView
+            android:id="@+id/tv_rfid_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Socket通讯"
+            android:textColor="#673AB7"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_rfid_type_"
+            app:layout_constraintStart_toEndOf="@+id/tv_rfid_type_"
+            app:layout_constraintTop_toTopOf="@+id/tv_rfid_type_" />
+        <Switch
+            android:id="@+id/sw_rfid_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:switchMinWidth="150dp"
+            android:thumb="@drawable/thumb"
+            android:track="@drawable/track"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/ed_rfid_setcom"
+            app:layout_constraintLeft_toLeftOf="@id/tv_rfid_type"
+            app:layout_constraintRight_toRightOf="@id/ed_rfid_setcom"
+            app:layout_constraintStart_toStartOf="@+id/tv_set_rfid_com"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.65" />
+        <TextView
+            android:id="@+id/tv_set_rfid_port"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="端口号："
+            android:textColor="#FF5722"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.2"
+            app:layout_constraintLeft_toLeftOf="@id/tv_rfid_type_"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.4" />
+
+        <EditText
+            android:id="@+id/ed_rfid_setport"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:background="@drawable/edit"
+            android:maxLines="1"
+            android:paddingLeft="10dp"
+            android:inputType="number"
+            android:textColor="#000"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_set_rfid_port"
+            app:layout_constraintLeft_toRightOf="@id/tv_set_rfid_port"
+            app:layout_constraintTop_toTopOf="@+id/tv_set_rfid_port" />
+
+        <TextView
+            android:id="@+id/tv_set_rfid_com"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="串口号："
+            android:textColor="#009688"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            app:layout_constraintBottom_toBottomOf="@+id/ed_rfid_setport"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ed_rfid_setport"
+            app:layout_constraintTop_toTopOf="@+id/ed_rfid_setport" />
+
+        <EditText
+            android:id="@+id/ed_rfid_setcom"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:background="@drawable/edit"
+            android:inputType="number"
+            android:maxLines="1"
+            android:paddingLeft="10dp"
+            android:textColor="#000"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_set_rfid_com"
+            app:layout_constraintLeft_toRightOf="@id/tv_set_rfid_com"
+            app:layout_constraintTop_toTopOf="@+id/tv_set_rfid_com" />
+        <Button
+            android:id="@+id/bt_set_rfid"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:text="确认"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:background="@drawable/click"
+            app:layout_constraintVertical_bias="0.9"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

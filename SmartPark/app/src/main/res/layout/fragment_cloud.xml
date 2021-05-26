@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@mipmap/bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="智能井盖监控"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="超声波传感器(mm)"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="甲烷传感器(MJ/Kg)"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="三轴传感器(mm)"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="井盖状态"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <com.newland.view.SensorInstrumentView
+            android:id="@+id/well_ultrasonicLab"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <com.newland.view.SensorInstrumentView
+            android:id="@+id/methaneLab"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@mipmap/pkr"
+           >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/triaxialLab_z"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="142dp"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@color/textcolor_black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/triaxialLab_x"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginBottom="26dp"
+                    android:layout_marginStart="104dp"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@color/textcolor_black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/triaxialLab_y"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignTop="@+id/triaxialLab_x"
+                    android:layout_marginStart="261dp"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@color/textcolor_black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/cover_faultLab"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginBottom="19dp"
+                    android:layout_marginEnd="60dp"
+                    android:text="0"
+                    android:textColor="@color/textcolor_black"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="水质监控"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="PH值"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="浊度(NTU)"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="电导率(S/m)"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <com.newland.view.SensorInstrumentView
+            android:id="@+id/m_phLab"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <com.newland.view.SensorInstrumentView
+            android:id="@+id/m_turbiLab"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <com.newland.view.SensorInstrumentView
+            android:id="@+id/m_conductivityLab"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/loginYun"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="73dp"
+                    android:background="@drawable/btn_login_selector"
+                    android:gravity="center"
+                    android:text="登录云平台"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/getDataFromYun"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginBottom="98dp"
+                    android:background="@drawable/btn_login_selector"
+                    android:gravity="center"
+                    android:text="开始采集"
+                    android:textSize="20sp" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="环境监控"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="垃圾高度(mm)"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="PM2.5值(ug/m³)"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="一氧化碳(NB)(ppm)"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="可燃气(NB)(LEL)"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <com.newland.view.SensorInstrumentView
+            android:id="@+id/trashcan_ultrasonicLab"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+
+            android:layout_weight="1" />
+
+        <com.newland.view.SensorInstrumentView
+            android:id="@+id/m_pm2_5Lab"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+
+            android:layout_weight="1" />
+
+        <com.newland.view.SensorInstrumentView
+            android:id="@+id/carbonMonoxideLab"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+
+            android:layout_weight="1" />
+
+        <com.newland.view.SensorInstrumentView
+            android:id="@+id/flammableGasLab"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+
+            android:layout_weight="1" />
+    </LinearLayout>
+
+
+</LinearLayout>

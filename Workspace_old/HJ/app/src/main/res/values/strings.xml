@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HJ</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_v1">V1</string>
+    <string name="title_activity_v2">V2</string>
+    <string name="title_activity_v3">V3</string>
+    <string name="title_activity_vmain">Vmain</string>
+    <string-array name="a">
+        <item >温度</item>
+    </string-array>
+    <string-array name="b">
+        <item >＞</item>
+        <item >＜＝</item>
+    </string-array>
+
+</resources>

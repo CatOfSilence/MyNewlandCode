@@ -1,0 +1,81 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\Workspace_old\\HJ\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "38",
+                        "endOffsets": "91"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "222",
+                        "endColumns": "38",
+                        "endOffsets": "256"
+                    }
+                },
+                {
+                    "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "6,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "191,522",
+                        "endLines": "12,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "481,679"
+                    },
+                    "to": {
+                        "startLines": "19,26",
+                        "startColumns": "4,4",
+                        "startOffsets": "723,1014",
+                        "endLines": "25,28",
+                        "endColumns": "12,12",
+                        "endOffsets": "1009,1169"
+                    }
+                },
+                {
+                    "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "92,151",
+                        "endColumns": "57,55",
+                        "endOffsets": "145,202"
+                    },
+                    "to": {
+                        "startLines": "10,11",
+                        "startColumns": "4,4",
+                        "startOffsets": "261,319",
+                        "endColumns": "57,55",
+                        "endOffsets": "314,370"
+                    }
+                },
+                {
+                    "source": "E:\\Workspace_old\\HJ\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "10,13,4,3,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "414,490,100,59,154,208,258,308,358",
+                        "endLines": "12,16,4,3,5,6,7,8,9",
+                        "endColumns": "19,19,52,39,52,48,48,48,54",
+                        "endOffsets": "484,585,148,94,202,252,302,352,408"
+                    },
+                    "to": {
+                        "startLines": "2,5,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,127,375,428,468,521,570,619,668",
+                        "endLines": "4,8,12,13,14,15,16,17,18",
+                        "endColumns": "19,19,52,39,52,48,48,48,54",
+                        "endOffsets": "122,217,423,463,516,565,614,663,718"
+                    }
+                }
+            ]
+        }
+    ]
+}

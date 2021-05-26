@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./app/libs/Analog4150Library.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/Analog4150Library.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

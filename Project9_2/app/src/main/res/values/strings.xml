@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Project9_2</string>
+    <string name="ip_tip"><font size="14">请输入IP地址，如http://192.168.14.221:1512</font></string>
+    <string name="project_tip"><font size="14">请输入项目标识</font></string>
+    <string name="username_tip"><font size="14">请输入用户名</font></string>
+    <string name="pwd_tip"><font size="14">请输入密码</font></string>
+
+    <string name="name_already_exist">该用户名已存在，请重新输入！</string>
+    <string name="account_empty">用户名为空，请重新输入！</string>
+    <string name="pwd_empty">密码为空，请重新输入！</string>
+    <string name="pwd_not_fit_user">密码不正确，请重新输入！</string>
+    <string name="pwd_new_empty">新密码为空，请重新输入！</string>
+    <string name="pwd_check_empty">密码确认为空，请重新输入！</string>
+    <string name="pwd_not_same">密码确认不正确，请重新输入密码！</string>
+
+    <string name="register_fail">注册用户失败，请重新尝试！</string>
+    <string name="register_success">注册成功！</string>
+</resources>

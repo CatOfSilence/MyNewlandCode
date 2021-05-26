@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="16"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_columnSpan="16"
+        android:layout_gravity="left"
+        android:text="@string/cloud_params_setting"
+        android:textColor="@color/colorBlue"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_columnSpan="5"
+        android:text="@string/server_address" />
+
+    <EditText
+        android:id="@+id/et_server_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="5"
+        android:layout_columnSpan="11"
+        android:ems="11"
+        android:text="http://api.nlecloud.com" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:layout_columnSpan="5"
+        android:text="@string/cloud_project_label" />
+
+    <EditText
+        android:id="@+id/et_project_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="5"
+        android:layout_columnSpan="11"
+        android:ems="11"
+        android:text="86423" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:layout_columnSpan="5"
+        android:text="@string/cloud_account" />
+
+    <EditText
+        android:id="@+id/et_cloud_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="3"
+        android:layout_column="5"
+        android:layout_columnSpan="11"
+        android:ems="11"
+        android:text="15852701623" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="4"
+        android:layout_column="0"
+        android:layout_columnSpan="5"
+        android:text="@string/cloud_account_password" />
+
+    <EditText
+        android:id="@+id/et_cloud_account_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="4"
+        android:layout_column="5"
+        android:layout_columnSpan="11"
+        android:ems="11"
+        android:inputType="textPassword"
+        android:text="123456" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="5"
+        android:layout_column="0"
+        android:layout_columnSpan="16"
+        android:layout_gravity="left"
+        android:paddingTop="10dp"
+        android:text="@string/camera_address_setting"
+        android:textColor="@color/colorBlue"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="6"
+        android:layout_column="0"
+        android:layout_columnSpan="6"
+        android:text="@string/camera_address" />
+
+    <EditText
+        android:id="@+id/et_camera_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="6"
+        android:layout_column="6"
+        android:layout_columnSpan="10"
+        android:ems="11"
+        android:text="@string/address_hint" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="7"
+        android:layout_column="0"
+        android:layout_columnSpan="16"
+        android:layout_gravity="left"
+        android:paddingTop="10dp"
+        android:text="@string/sensor_actuator_setting"
+        android:textColor="@color/colorBlue"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="8"
+        android:layout_column="0"
+        android:layout_columnSpan="4"
+        android:text="@string/temp_sensor_id" />
+
+    <EditText
+        android:id="@+id/et_temp_sensor_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="8"
+        android:layout_column="4"
+        android:layout_columnSpan="4"
+        android:ems="3"
+        android:text="zt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="8"
+        android:layout_column="8"
+        android:layout_columnSpan="2"
+        android:text="@string/temp_threshold_value" />
+
+    <EditText
+        android:id="@+id/et_temp_threshold_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="8"
+        android:layout_column="10"
+        android:layout_columnSpan="6"
+        android:ems="4"
+        android:text="30" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="9"
+        android:layout_column="0"
+        android:layout_columnSpan="4"
+        android:text="@string/humi_sensor_id" />
+
+    <EditText
+        android:id="@+id/et_hum_sensor_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="9"
+        android:layout_column="4"
+        android:layout_columnSpan="4"
+        android:ems="3"
+        android:text="zh" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="9"
+        android:layout_column="8"
+        android:layout_columnSpan="2"
+        android:text="@string/humi_threshold_value" />
+
+    <EditText
+        android:id="@+id/et_hum_threshold_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="9"
+        android:layout_column="10"
+        android:layout_columnSpan="6"
+        android:ems="4"
+        android:text="70" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="10"
+        android:layout_column="0"
+        android:layout_columnSpan="4"
+        android:text="@string/light_sensor_id" />
+
+    <EditText
+        android:id="@+id/et_light_sensor_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="10"
+        android:layout_column="4"
+        android:layout_columnSpan="4"
+        android:ems="3"
+        android:text="zl" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="10"
+        android:layout_column="8"
+        android:layout_columnSpan="2"
+        android:text="@string/light_threshold_value" />
+
+    <EditText
+        android:id="@+id/et_light_threshold_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="10"
+        android:layout_column="10"
+        android:layout_columnSpan="6"
+        android:ems="4"
+        android:text="1000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="11"
+        android:layout_column="0"
+        android:layout_columnSpan="4"
+        android:text="@string/body_sensor_id" />
+
+    <EditText
+        android:id="@+id/et_body_sensor_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="11"
+        android:layout_column="4"
+        android:layout_columnSpan="4"
+        android:ems="3"
+        android:text="zb" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="11"
+        android:layout_column="8"
+        android:layout_columnSpan="4"
+        android:text="@string/light_controller_id" />
+
+    <EditText
+        android:id="@+id/et_light_controller_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="11"
+        android:layout_column="12"
+        android:layout_columnSpan="4"
+        android:ems="3"
+        android:text="ml" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="12"
+        android:layout_column="0"
+        android:layout_columnSpan="5"
+        android:text="@string/ventilation_controller_id" />
+
+    <EditText
+        android:id="@+id/et_ventilation_controller_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="12"
+        android:layout_column="5"
+        android:layout_columnSpan="2"
+        android:ems="3"
+        android:text="mf1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="12"
+        android:layout_column="7"
+        android:layout_columnSpan="5"
+        android:text="@string/air_controller_id" />
+
+    <EditText
+        android:id="@+id/et_air_controller_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="12"
+        android:layout_column="12"
+        android:layout_columnSpan="4"
+        android:ems="3"
+        android:text="mf2" />
+
+
+    <Button
+        android:id="@+id/btn_save_params"
+        android:layout_width="120dp"
+        android:layout_height="32dp"
+        android:layout_row="13"
+        android:layout_rowSpan="2"
+        android:layout_column="0"
+        android:layout_columnSpan="16"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:background="@drawable/button_style"
+        android:gravity="center_horizontal|center_vertical"
+        android:onClick="onClickSave"
+        android:text="@string/save_parsms"
+        android:textColor="@color/colorWhite"
+        android:textSize="16sp" />
+
+</GridLayout>

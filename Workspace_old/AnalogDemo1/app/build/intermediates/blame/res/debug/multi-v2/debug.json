@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\Workspace\\AnalogDemo1\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "E:\\Workspace\\AnalogDemo1\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "6,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "191,522",
+                        "endLines": "12,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "481,679"
+                    },
+                    "to": {
+                        "startLines": "4,11",
+                        "startColumns": "4,4",
+                        "startOffsets": "156,447",
+                        "endLines": "10,13",
+                        "endColumns": "12,12",
+                        "endOffsets": "442,602"
+                    }
+                },
+                {
+                    "source": "E:\\Workspace\\AnalogDemo1\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "58,107",
+                        "endColumns": "47,52",
+                        "endOffsets": "101,155"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,103",
+                        "endColumns": "47,52",
+                        "endOffsets": "98,151"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="370dp"
+              android:layout_height="wrap_content"
+              android:background="@android:color/white"
+              android:orientation="vertical">
+    <!--自定义对话框，线性布局水平方向-->
+
+    <!--第一部分标题栏-->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#257CFF"
+        android:gravity="center"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:text="设置云平台地址"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="right"
+            android:text="域名："
+            android:textColor="@color/textcolor_black"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/addressYun"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp10"
+            android:layout_marginRight="@dimen/dp10"
+            android:layout_weight="1"
+            android:background="@drawable/bg_text_while_outer_ring_gray"
+            android:hint="请输入云平台域名"
+            android:padding="8dp"
+            android:singleLine="true"
+            android:text="api.nlecloud.com"
+            android:textSize="@dimen/sp16" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp10"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textVideoView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="right"
+            android:text="端口："
+            android:textColor="@color/textcolor_black"
+            android:textSize="@dimen/sp16" />
+
+        <EditText
+            android:id="@+id/portYun"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp10"
+            android:layout_marginRight="@dimen/dp10"
+            android:layout_weight="1"
+            android:background="@drawable/bg_text_while_outer_ring_gray"
+            android:hint="请输入端口"
+            android:padding="8dp"
+            android:singleLine="true"
+            android:text="80"
+            android:textSize="@dimen/sp16" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dp10"
+        android:layout_marginTop="@dimen/dp10"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="right"
+            android:text="用户名："
+            android:textColor="@color/textcolor_black"
+            android:textSize="@dimen/sp16" />
+
+        <EditText
+            android:id="@+id/loginnameYun"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp10"
+            android:layout_marginRight="@dimen/dp10"
+            android:layout_weight="1"
+            android:background="@drawable/bg_text_while_outer_ring_gray"
+            android:hint="请输入用户名"
+            android:inputType="textPassword|phone"
+            android:padding="8dp"
+            android:singleLine="true"
+            android:text="13805058014"
+            android:textSize="@dimen/sp16" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="right"
+            android:singleLine="true"
+            android:text="密码："
+            android:textColor="@color/textcolor_black"
+            android:textSize="@dimen/sp16" />
+
+        <EditText
+            android:id="@+id/passwordYun"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp10"
+            android:layout_marginRight="@dimen/dp10"
+            android:layout_weight="1"
+            android:background="@drawable/bg_text_while_outer_ring_gray"
+            android:hint="请输入密码"
+            android:padding="8dp"
+            android:singleLine="true"
+            android:text="123456"
+            android:textSize="@dimen/sp16" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dp10"
+        android:layout_marginTop="@dimen/dp10"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="right"
+            android:text="LoRa设备ID："
+            android:textColor="@color/textcolor_black"
+            android:textSize="@dimen/sp16" />
+
+        <EditText
+            android:id="@+id/gatewayDeviceIdLoRa"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp10"
+            android:layout_marginRight="@dimen/dp10"
+            android:layout_weight="1"
+            android:background="@drawable/bg_text_while_outer_ring_gray"
+            android:hint="请输入LoRa网关ID"
+            android:padding="8dp"
+            android:singleLine="true"
+            android:text="39518"
+            android:textSize="@dimen/sp16" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dp10"
+        android:layout_marginTop="@dimen/dp10"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="right"
+            android:text="一氧化碳NB设备ID："
+            android:textColor="@color/textcolor_black"
+            android:textSize="@dimen/sp16" />
+
+        <EditText
+            android:id="@+id/carbonMonoxideDeviceIdNB"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp10"
+            android:layout_marginRight="@dimen/dp10"
+            android:layout_weight="1"
+            android:background="@drawable/bg_text_while_outer_ring_gray"
+            android:hint="一氧化碳NB设备ID"
+            android:padding="8dp"
+            android:singleLine="true"
+            android:text="39519"
+            android:textSize="@dimen/sp16" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dp10"
+        android:layout_marginTop="@dimen/dp10"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="right"
+            android:text="一氧化碳(NB)设备ID："
+            android:textColor="@color/textcolor_black"
+            android:textSize="@dimen/sp16" />
+
+        <EditText
+            android:id="@+id/flammableGasDeviceIdNB"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp10"
+            android:layout_marginRight="@dimen/dp10"
+            android:layout_weight="1"
+            android:background="@drawable/bg_text_while_outer_ring_gray"
+            android:hint="甲烷(NB)ID"
+            android:padding="8dp"
+            android:singleLine="true"
+            android:text="39520"
+            android:textSize="@dimen/sp16" />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="#cccccc"></View>
+    <!--确定，取消按钮-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_yun_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="保存"
+            android:textColor="#257CFF"/>
+        <!--分割线-->
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#cccccc"></View>
+        <Button
+            android:id="@+id/btn_yun_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="取消"
+            android:textColor="#257CFF"/>
+    </LinearLayout>
+</LinearLayout>

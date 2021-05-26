@@ -1,0 +1,202 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:gravity="right|bottom"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="400dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/bg_envir"
+        android:orientation="horizontal"
+        android:padding="15dp">
+        <!--温度模块-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dp20"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_envir_temp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/pic_icon_temp"/>
+
+                <TextView
+                    android:id="@+id/tv_temp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0.00℃"
+                    android:layout_marginLeft="@dimen/envir_marginLeft"
+                    style="@style/text_white"
+                    android:textSize="@dimen/round_number_size"/>
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/imgTempFan"
+                android:layout_width="@dimen/fan"
+                android:layout_height="@dimen/fan"
+                android:layout_marginTop="@dimen/dp20"
+                android:background="@drawable/fan" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/text_white"
+                android:layout_marginTop="@dimen/dp20"
+                android:text="通风扇"/>
+
+        </LinearLayout>
+        <!--湿度模块-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dp20"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_envir_humi"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/pic_icon_humi"/>
+
+                <TextView
+                    android:id="@+id/tv_humi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0.00RH"
+                    android:layout_marginLeft="@dimen/envir_marginLeft"
+                    style="@style/text_white"
+                    android:textSize="@dimen/round_number_size"/>
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/imgHumiFan"
+                android:layout_width="@dimen/fan"
+                android:layout_height="@dimen/fan"
+                android:layout_marginTop="@dimen/dp20"
+                android:background="@drawable/fan" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/text_white"
+                android:layout_marginTop="@dimen/dp20"
+                android:text="排气扇"/>
+
+        </LinearLayout>
+        <!--光照模块-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dp20"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_envir_light"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/pic_icon_light"/>
+
+                <TextView
+                    android:id="@+id/tv_light"
+                    style="@style/text_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/envir_marginLeft"
+                    android:text="0.00Lx"
+                    android:textSize="@dimen/round_number_size"/>
+            </LinearLayout>
+            <CheckBox
+                android:id="@+id/cb_lamp"
+                android:layout_width="@dimen/fan"
+                android:layout_height="@dimen/fan"
+                android:button="@null"
+                android:layout_marginTop="@dimen/dp20"
+                android:clickable="false"
+                android:background="@drawable/select_lamp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/text_white"
+                android:layout_marginTop="@dimen/dp20"
+                android:text="照明灯"/>
+
+        </LinearLayout>
+        <!--烟雾模块-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dp20"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_envir_smoke"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/pic_icon_smoke"/>
+
+                <TextView
+                    android:id="@+id/tv_smoke"
+                    style="@style/text_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/envir_marginLeft"
+                    android:text="有烟"
+                    android:textSize="@dimen/round_number_size"/>
+            </LinearLayout>
+            <CheckBox
+                android:id="@+id/cb_smoke"
+                android:layout_width="@dimen/fan"
+                android:layout_height="@dimen/fan"
+                android:button="@null"
+                android:layout_marginTop="@dimen/dp20"
+                android:clickable="false"
+                android:background="@drawable/selector_smoke"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/text_white"
+                android:layout_marginTop="@dimen/dp20"
+                android:text="三色灯-橙灯"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

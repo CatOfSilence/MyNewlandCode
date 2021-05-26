@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="a">
+        <item>温度</item>
+    </string-array>
+    <string-array name="b">
+        <item>＞</item>
+        <item>＜＝</item>
+    </string-array>
+    <color name="main">#c2c2c2</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">HJ</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_v1">V1</string>
+    <string name="title_activity_v2">V2</string>
+    <string name="title_activity_v3">V3</string>
+    <string name="title_activity_vmain">Vmain</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

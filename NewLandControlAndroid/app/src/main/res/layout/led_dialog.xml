@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/white_back"
+    android:gravity="center">
+    <EditText
+        android:id="@+id/ed_led_dialog"
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:textSize="30sp"
+        android:textColor="#000"
+        android:hint="请输入整数"
+        android:paddingLeft="10dp"
+        android:textColorHint="#000"
+        android:inputType="number"
+        android:text=""/>
+    <Button
+        android:id="@+id/bt_led_dialog"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:text="设置"
+        android:background="@drawable/click2"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Animation.AppCompat.DropDownUp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4150串口"
+        android:textColor="#000"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.116"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.149" />
+
+    <Spinner
+        android:id="@+id/sp"
+        style="@style/Widget.AppCompat.Spinner.DropDown.ActionBar"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:textColor="#000"
+        android:textSize="50sp"
+        android:background="@drawable/my_sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv1"
+        app:layout_constraintStart_toEndOf="@+id/tv1"
+        app:layout_constraintTop_toTopOf="@+id/tv1">
+
+    </Spinner>
+
+    <Button
+        android:id="@+id/bt"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:background="@drawable/my_click"
+        android:text="开启监控"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="@+id/sp"
+        app:layout_constraintStart_toEndOf="@+id/sp"
+        app:layout_constraintTop_toTopOf="@+id/sp" />
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="1054dp"
+        android:layout_height="426dp"
+        android:background="@drawable/mytext"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.424"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.81"></ListView>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".serial.ActivityZigbeeSerial">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openConnect"
+        android:text="打开串口   "/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="getVal"
+        android:text="获取数据四输入"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:text="关闭串口"
+        android:onClick="stop"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:text="开双联继电器1"
+        android:onClick="openRelay"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:text="关双联继电器1"
+        android:onClick="closeRelay"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:text="开双联继电器2"
+        android:onClick="openRelay2"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:text="关双联继电器2"
+        android:onClick="closeRelay2"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

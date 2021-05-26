@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RadioGroup
+        android:id="@+id/rg_rfid"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_socket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:checked="true"
+            android:text="Socket通讯"
+            android:textSize="30sp" />
+
+        <RadioButton
+            android:id="@+id/rb_serial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="串口通讯"
+            android:textSize="30sp" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_read1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#66efdf"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/btread"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:text="获取单张EPC号"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_read2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text=""
+            android:textColor="#4e56f4"
+            android:textSize="40sp" />
+        <EditText
+            android:id="@+id/ed_write"
+            android:layout_width="500dp"
+            android:layout_height="80dp"
+            android:hint="数据内容"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_write"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_margin="20dp"
+            android:text="写入数据"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/bt_read"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_margin="20dp"
+            android:text="读取数据"
+            android:textSize="30sp" />
+    </LinearLayout>
+</LinearLayout>

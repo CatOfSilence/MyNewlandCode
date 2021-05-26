@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Mon Jun 29 20:50:18 CST 2020
+0.baseType=DIRECTORY
+0.base=E\:\\Workspace_old\\HJ\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.path=classes.dex
+0.set=DEX
+count=1

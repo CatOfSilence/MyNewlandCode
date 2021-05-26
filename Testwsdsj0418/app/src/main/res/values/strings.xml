@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">温湿度数据登记与查询</string>
+    <string-array name="fuck">
+        <item>温度</item>
+        <item>湿度</item>
+    </string-array>
+</resources>

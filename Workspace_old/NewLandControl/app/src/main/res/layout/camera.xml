@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="2:1.3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextureView
+            android:id="@+id/tuvv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:background="#000" />
+    </FrameLayout>
+
+    <EditText
+        android:id="@+id/ed_user"
+        android:layout_width="240dp"
+        android:layout_height="58dp"
+        android:layout_margin="10dp"
+        android:hint="用户账号"
+        android:text="admin"
+        android:textColor="#000"
+        android:textSize="25sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toEndOf="@id/frame"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/ed_password"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:hint="用户密码"
+        android:text="admin"
+        android:textColor="#000"
+        android:textSize="25sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toEndOf="@id/frame"
+        app:layout_constraintTop_toBottomOf="@id/ed_user" />
+
+    <EditText
+        android:id="@+id/ed_ip"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:hint="IP地址"
+        android:text="172.19.3.14"
+        android:textColor="#000"
+        android:textSize="25sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toEndOf="@id/frame"
+        app:layout_constraintTop_toBottomOf="@id/ed_password" />
+
+    <EditText
+        android:id="@+id/ed_channel"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:hint="通道号"
+        android:text="1"
+        android:textColor="#000"
+        android:textSize="25sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toEndOf="@id/frame"
+        app:layout_constraintTop_toBottomOf="@id/ed_ip" />
+
+    <Button
+        android:id="@+id/bt_open"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="开启"
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@id/ed_channel"
+        app:layout_constraintTop_toBottomOf="@id/ed_channel" />
+
+    <Button
+        android:id="@+id/bt_close"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="关闭"
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toRightOf="@id/bt_open"
+        app:layout_constraintBaseline_toBaselineOf="@id/bt_open"/>
+
+    <Button
+        android:id="@+id/bt_capture"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:text="截图"
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="@id/bt_open"
+        app:layout_constraintRight_toRightOf="@id/bt_close"
+        app:layout_constraintTop_toBottomOf="@id/bt_open" />
+
+    <Button
+        android:id="@+id/bt_up"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/bt_close"
+        app:layout_constraintStart_toStartOf="@id/bt_open"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bt_left"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:layout_constraintCircle="@id/bt_up"
+        app:layout_constraintCircleAngle="225"
+        app:layout_constraintCircleRadius="100dp" />
+
+    <Button
+        android:id="@+id/bt_right"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:layout_constraintCircle="@id/bt_up"
+        app:layout_constraintCircleAngle="135"
+        app:layout_constraintCircleRadius="100dp" />
+
+    <Button
+        android:id="@+id/bt_down"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:layout_constraintCircle="@id/bt_up"
+        app:layout_constraintCircleAngle="180"
+        app:layout_constraintCircleRadius="140dp" />
+</android.support.constraint.ConstraintLayout>

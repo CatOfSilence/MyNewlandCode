@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--灰色，圆角矩形选择器-->
+    <item android:state_pressed="false">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/gray_btn" />
+            <corners android:radius="@dimen/radius"></corners>
+            <padding android:left="@dimen/btn_left" android:right="@dimen/btn_right"></padding>
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/gray_btn1" />
+            <corners android:radius="@dimen/radius"></corners>
+            <padding android:left="@dimen/btn_left" android:right="@dimen/btn_right"></padding>
+        </shape>
+    </item>
+</selector>

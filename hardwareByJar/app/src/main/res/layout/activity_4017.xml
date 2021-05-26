@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    tools:context=".Activity4017">
+
+
+    <TableRow android:layout_marginTop="16dp">
+
+        <TextView
+            android:text="VIN0的值: "/>
+
+        <TextView
+            android:id="@+id/tvVin0"
+            android:layout_marginLeft="16dp"/>
+    </TableRow>
+
+    <TableRow android:layout_marginTop="16dp">
+
+        <TextView
+            android:text="获取VIN1的值: "/>
+
+        <TextView
+            android:id="@+id/tvVin1"
+            android:layout_marginLeft="16dp"/>
+    </TableRow>
+
+    <TableRow android:layout_marginTop="16dp">
+
+        <TextView
+            android:text="获取VIN2的值: "/>
+
+        <TextView
+            android:id="@+id/tvVin2"
+            android:layout_marginLeft="16dp"/>
+    </TableRow>
+
+    <TableRow android:layout_marginTop="16dp">
+
+        <TextView
+            android:text="获取VIN3的值: "/>
+
+        <TextView
+            android:id="@+id/tvVin3"
+            android:layout_marginLeft="16dp"/>
+    </TableRow>
+
+    <TableRow android:layout_marginTop="16dp">
+
+        <TextView
+            android:text="获取VIN4的值: "/>
+
+        <TextView
+            android:id="@+id/tvVin4"
+            android:layout_marginLeft="16dp"/>
+    </TableRow>
+
+    <TableRow android:layout_marginTop="16dp">
+
+        <TextView
+            android:text="获取VIN5的值: "/>
+
+        <TextView
+            android:id="@+id/tvVin5"
+            android:layout_marginLeft="16dp"/>
+    </TableRow>
+
+    <TableRow android:layout_marginTop="16dp">
+
+        <TextView
+            android:text="获取VIN6的值: "/>
+
+        <TextView
+            android:id="@+id/tvVin6"
+            android:layout_marginLeft="16dp"/>
+    </TableRow>
+
+    <TableRow android:layout_marginTop="16dp">
+
+        <TextView
+            android:text="获取VIN7的值: "/>
+
+        <TextView
+            android:id="@+id/tvVin7"
+            android:layout_marginLeft="16dp"/>
+    </TableRow>
+
+    <TableRow android:layout_marginTop="16dp">
+
+        <Button
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_span="2"
+            android:onClick="getVal"
+            android:text="获取值"/>
+    </TableRow>
+</TableLayout>

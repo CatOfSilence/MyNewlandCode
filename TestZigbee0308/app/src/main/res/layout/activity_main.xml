@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rh"
+        android:textColor="#000"
+        android:textSize="45sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tv_wd"
+        app:layout_constraintStart_toEndOf="@+id/tv_sd" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="湿度："
+        android:textColor="#000"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.71"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv1" />
+
+    <TextView
+        android:id="@+id/tv_sd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:text="0"
+        android:textColor="#000"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tv1"
+        app:layout_constraintStart_toEndOf="@+id/tv3" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="温度："
+        android:textColor="#000"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.32999998" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="℃"
+        android:textColor="#000"
+        android:textSize="45sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tv_wd"
+        app:layout_constraintStart_toEndOf="@+id/tv_wd" />
+
+    <TextView
+        android:id="@+id/tv_wd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="0"
+        android:textColor="#000"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tv1"
+        app:layout_constraintStart_toEndOf="@+id/tv1" />
+
+    <Button
+        android:id="@+id/bt"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:text="开始读取"
+        android:textColor="#000"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.75" />
+</android.support.constraint.ConstraintLayout>

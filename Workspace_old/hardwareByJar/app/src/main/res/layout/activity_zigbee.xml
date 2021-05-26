@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityZigbee">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="getVal"
+            android:text="获取数据"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="四输入温度："/>
+
+        <TextView
+            android:id="@+id/tv4Tmp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginLeft="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="四输入湿度："/>
+
+        <TextView
+            android:id="@+id/tv4Hum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginLeft="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="四输入噪音："/>
+
+        <TextView
+            android:id="@+id/tv4Noise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginLeft="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="四输入CO2："/>
+
+        <TextView
+            android:id="@+id/tv4CO2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="温度："/>
+        <TextView
+            android:id="@+id/tvTmp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginLeft="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="湿度："/>
+
+        <TextView
+            android:id="@+id/tvHum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginLeft="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="火焰："/>
+
+        <TextView
+            android:id="@+id/tvFire"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginLeft="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="人体："/>
+
+        <TextView
+            android:id="@+id/tvPerson"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginLeft="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="光照："/>
+
+        <TextView
+            android:id="@+id/tvLight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+<EditText
+    android:layout_width="wrap_content"
+    android:hint="双联继电器系列号"
+    android:inputType="number"
+    android:id="@+id/etDoubleSerial"
+    android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openRelay"
+        android:text="开双联继电器1"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="closeRelay"
+        android:text="关双联继电器1"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openRelay2"
+        android:text="开双联继电器2"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="closeRelay2"
+        android:text="关双联继电器2"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:hint="单联继电器系列号"
+        android:inputType="number"
+        android:id="@+id/etSingleSerial"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:text="开单联继电器"
+        android:onClick="openSingle"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:text="关单联继电器"
+        android:onClick="closeSingle"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

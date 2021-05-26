@@ -1,0 +1,9 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="tab" parent="TextAppearance.Design.Tab">
+        <!-- Customize your theme here. -->
+        <item name="android:textSize">14sp</item>
+    </style>
+
+</resources>

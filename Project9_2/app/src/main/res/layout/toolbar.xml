@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+                                   xmlns:toolbar="http://schemas.android.com/apk/res-auto"
+                                   android:id="@+id/toolbar"
+                                   android:layout_width="match_parent"
+                                   android:layout_height="60dp"
+                                   android:background="@color/blue"
+                                   android:orientation="horizontal"
+                                   toolbar:navigationIcon="@mipmap/icon_smart_park"
+                                   toolbar:popupTheme="@style/AppToolbarPopupTheme"
+                                   toolbar:theme="@style/AppToolBarTitleTheme"
+                                   toolbar:title=" ">
+    <!--设置toolbar高度为50dp，AppToolBarTitleTheme主题修改toolbar默认的图标，popupTheme自定义item属性-->
+
+    <TextView
+        android:id="@+id/tv_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+    <!--toolbar副标题居中-->
+</android.support.v7.widget.Toolbar>

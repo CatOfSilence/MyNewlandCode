@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">自动控制</string>
+    <string-array name="fuck">
+        <item>DO0</item>
+        <item>DO1</item>
+        <item>DO2</item>
+        <item>DO3</item>
+        <item>DO4</item>
+        <item>DO5</item>
+        <item>DO6</item>
+        <item>DO7</item>
+    </string-array>
+</resources>

@@ -1,0 +1,14 @@
+com.example.analogdemo
+drawable ic_launcher
+id btn_corridor_close
+id btn_corridor_open
+id btn_street_close
+id btn_street_open
+id tv_fire
+id tv_person
+id tv_smoke
+layout activity_main
+string app_name
+string hello_world
+style AppBaseTheme
+style AppTheme

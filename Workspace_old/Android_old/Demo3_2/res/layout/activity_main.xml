@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/btSet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:onClick="myclick"
+        android:text="设置" />
+
+    <EditText
+        android:id="@+id/etTime"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btSet"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/etTime"
+        android:layout_alignBottom="@+id/etTime"
+        android:layout_toLeftOf="@+id/etTime"
+        android:text="轮询时间：" />
+
+    <TextView
+        android:id="@+id/second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/etTime"
+        android:layout_alignBottom="@+id/etTime"
+        android:layout_toRightOf="@+id/etTime"
+        android:text=" 秒" />
+
+</RelativeLayout>

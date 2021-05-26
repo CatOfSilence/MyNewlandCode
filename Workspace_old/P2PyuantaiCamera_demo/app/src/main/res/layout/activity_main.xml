@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="horizontal"
+    android:weightSum="5"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3">
+
+        <TextureView
+            android:id="@+id/svCamera"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <View
+            android:id="@+id/temp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000"
+            android:visibility="gone"/>
+
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="user name"
+            android:text="admin"/>
+
+        <EditText
+            android:id="@+id/etPwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="password"
+            android:text="admin"
+            />
+
+        <EditText
+            android:id="@+id/etIP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="IP"
+            android:text="192.168.2.3"
+            />
+
+        <EditText
+            android:id="@+id/etChannel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="channel"
+            android:text="1"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="open"
+                android:text="打开"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="release"
+                android:text="关闭"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="上"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="左"/>
+
+            <Button
+                android:id="@+id/right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="右"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="下"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:text="截图"
+            android:onClick="capture"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+</LinearLayout>

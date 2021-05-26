@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal"
+        android:gravity="bottom">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right">
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="系列号："
+                android:textColor="#01d5fa"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/ed_setid"
+                android:layout_width="200dp"
+                android:layout_height="80dp"
+                android:background="@drawable/edit"
+                android:maxLines="1"
+                android:inputType="number"
+                android:paddingLeft="10dp"
+                android:textColor="#000"
+                android:textSize="40sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="照明灯:"
+                android:textColor="#01d5fa"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/ed_setlight"
+                android:layout_width="200dp"
+                android:layout_height="80dp"
+                android:layout_gravity="top"
+                android:background="@drawable/edit"
+                android:maxLines="1"
+                android:inputType="number"
+                android:paddingLeft="10dp"
+                android:textColor="#000"
+                android:textSize="40sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left">
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="排气扇:"
+                android:textColor="#01d5fa"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/ed_setfan"
+                android:layout_width="200dp"
+                android:layout_height="80dp"
+                android:layout_gravity="top"
+                android:background="@drawable/edit"
+                android:maxLines="1"
+                android:inputType="number"
+                android:paddingLeft="10dp"
+                android:textColor="#000"
+                android:textSize="40sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="80dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="100dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bt_z_confirm"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:background="@drawable/click"
+                android:text="确定"
+                android:textColor="#000"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/bt_z_cancel"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="50dp"
+                android:background="@drawable/click"
+                android:text="取消"
+                android:textColor="#000"
+                android:textSize="40sp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

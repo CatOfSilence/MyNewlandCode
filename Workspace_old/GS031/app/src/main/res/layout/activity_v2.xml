@@ -1,0 +1,147 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".V2" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="right" >
+
+        <ImageView
+            android:id="@+id/ImageView_v2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center" >
+
+        <CheckBox
+            android:id="@+id/CheckBox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="当"
+            android:textSize="25sp" />
+
+        <Spinner
+            android:id="@+id/Spinner1_1"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content" 
+            android:background="#fff"
+            android:entries="@array/a"/>
+
+        <Spinner
+            android:id="@+id/Spinner1_2"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:entries="@array/b"/>
+
+        <EditText
+            android:id="@+id/EditText_v2_1"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="风扇转"
+            android:textSize="25sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center" >
+
+        <CheckBox
+            android:id="@+id/CheckBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="当光照度"
+            android:textSize="25sp" />
+
+        <Spinner
+            android:id="@+id/Spinner2_1"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:entries="@array/b"/>
+
+        <EditText
+            android:id="@+id/EditText_v2_2"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:ems="10" />
+
+        <Spinner
+            android:id="@+id/Spinner2_2"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:entries="@array/c" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center" >
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/TextView_v2_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</LinearLayout>

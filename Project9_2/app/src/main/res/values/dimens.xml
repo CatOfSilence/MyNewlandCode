@@ -1,0 +1,38 @@
+<resources>
+    <dimen name="gas_s">8dp</dimen>
+    <dimen name="gas_m">16dp</dimen>
+    <dimen name="gas_l">50dp</dimen>
+
+    <dimen name="txt_default">20sp</dimen>
+    <dimen name="txt_s">10sp</dimen>
+    <dimen name="txt_l">20sp</dimen>
+    <dimen name="txt_xl">25sp</dimen>
+
+    <dimen name="title_height">45dp</dimen>
+
+    <dimen name="round_main_size">120dp</dimen>
+    <!-- main 圆 -->
+    <dimen name="round_text_size">18sp</dimen>
+    <dimen name="round_number_size">20sp</dimen>
+    <dimen name="fan">120dp</dimen>
+    <dimen name="red">140dp</dimen>
+    <dimen name="sp16">16sp</dimen>
+    <dimen name="dp10">10dp</dimen>
+    <dimen name="dp20">20dp</dimen>
+    <dimen name="dp60">60dp</dimen>
+    <dimen name="dp15">15dp</dimen>
+    <dimen name="reg_left">25dp</dimen>
+    <dimen name="reg_right">25dp</dimen>
+    <dimen name="radius">8dp</dimen>
+    <dimen name="radius1">12dp</dimen>
+    <dimen name="radius_mid">18dp</dimen>
+    <dimen name="radius_big">24dp</dimen>
+    <dimen name="btn_left">80dp</dimen>
+    <dimen name="btn_right">80dp</dimen>
+    <dimen name="btn_left_small">30dp</dimen>
+    <dimen name="btn_right_small">30dp</dimen>
+    <dimen name="envir_bg_padding">20dp</dimen>
+    <dimen name="envir_marginLeft">22dp</dimen>
+    <dimen name="envir_width">180dp</dimen>
+
+</resources>

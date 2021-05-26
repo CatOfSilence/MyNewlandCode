@@ -1,0 +1,18 @@
+com.nlecloud.nlecloud
+dimen activity_horizontal_margin
+dimen activity_vertical_margin
+drawable ic_launcher
+id action_settings
+id btn_login
+id btn_logout
+id et_pass_word
+id et_user_name
+id tv_token
+layout home_activity
+layout main_activity
+menu main
+string action_settings
+string app_name
+string hello_world
+style AppBaseTheme
+style AppTheme

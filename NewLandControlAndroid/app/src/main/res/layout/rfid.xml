@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.3"
+        android:gravity="center|bottom"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_read1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#66efdf"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btread"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="获取单张EPC号"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_read2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text=""
+            android:textColor="#4e56f4"
+            android:textSize="30sp" />
+        <EditText
+            android:id="@+id/ed_write"
+            android:layout_width="400dp"
+            android:layout_height="60dp"
+            android:hint="数据内容"
+            android:textColor="#fff"
+            android:paddingLeft="5dp"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_write"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:text="写入数据"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/bt_read"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:text="读取数据"
+            android:textSize="20sp" />
+    </LinearLayout>
+</LinearLayout>

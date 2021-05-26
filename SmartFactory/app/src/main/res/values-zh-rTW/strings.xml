@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">智慧工廠</string>
+
+    <!-- splash介面 -->
+    <string name="welcome">歡迎使用物聯網智慧工廠App</string>
+    <string name="version">版本1.0</string>
+    <string name="cancel">取消</string>
+
+    <!-- 主介面 -->
+    <string name="environment">環境監控</string>
+    <string name="temperature_title">溫度：</string>
+    <string name="temperature_value">22.1</string>
+    <string name="humility_title">濕度：</string>
+    <string name="humility_value">79.3</string>
+    <string name="light_title">光照：</string>
+    <string name="light_value">591.4</string>
+    <string name="breaking_area_monitoring">禁入區域監控</string>
+    <string name="breaking_value">正常</string>
+    <string name="device_controlling">設備控制</string>
+    <string name="ventilation_system">通風系統：</string>
+    <string name="aircondition_system">空調系統：</string>
+    <string name="lighting_system">光照系統：</string>
+    <string name="breaking_abnormal">有人闖入</string>
+    <string name="breaking_normal">正常</string>
+    <string-array name="control_status">
+        <item>打開</item>
+        <item>關閉</item>
+        <item>自動</item>
+    </string-array>
+
+    <!-- 全域參數設置介面 -->
+    <string name="setting">全域參數設置</string>
+    <string name="globle_param_setting">全域參數設置</string>
+    <string name="cloud_params_setting">物聯網雲平臺參數設置</string>
+    <string name="server_address">伺服器地址：</string>
+    <string name="address_hint">192.168.0.1</string>
+    <string name="cloud_project_label">雲平臺專案標識：</string>
+    <string name="cloud_account">雲平臺帳號：</string>
+    <string name="cloud_account_password">雲平臺密碼：</string>
+    <string name="camera_address_setting">監控攝像設備參數設置</string>
+    <string name="camera_address">攝像頭地址：</string>
+    <string name="sensor_actuator_setting">感測器執行器參數設置</string>
+    <string name="temp_sensor_id">溫度設備ID：</string>
+    <string name="temp_threshold_value">溫度閾值：</string>
+    <string name="humi_sensor_id">濕度設備ID：</string>
+    <string name="humi_threshold_value">濕度閾值：</string>
+    <string name="light_sensor_id">光照設備ID：</string>
+    <string name="light_threshold_value">光照閾值：</string>
+    <string name="body_sensor_id">人體感應ID:</string>
+    <string name="light_controller_id">光照控制設備ID：</string>
+    <string name="ventilation_controller_id">通風控制設備ID：</string>
+    <string name="air_controller_id">空調控制設備ID：</string>
+    <string name="save_parsms">保存參數</string>
+    <string name="server_address_empty">請輸入伺服器位址！</string>
+    <string name="cloud_project_empty">請輸入雲平臺專案標識！</string>
+    <string name="cloud_account_empty">請輸入雲平臺帳號！</string>
+    <string name="cloud_account_password_empty">請輸入雲平臺密碼！</string>
+    <string name="camera_address_empty">請輸入攝像頭位址！</string>
+    <string name="save_params_success">保存成功！</string>
+
+    <!-- 攝像監控介面 -->
+    <string name="start_camera">開啟監控</string>
+    <string name="close_camera">關閉監控</string>
+    <string name="monitor_camera">攝像監控</string>
+
+    <!-- 抽屜導航介面-->
+    <string name="menu_item1">管理</string>
+    <string name="menu_item2">個人設置</string>
+    <string name="menu_item3">語言選擇</string>
+    <string name="menu_item4">關於軟體</string>
+    <string name="menu_item5">更多</string>
+    <string name="menu_item6">切換帳戶</string>
+    <string name="menu_item7">退出程式</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+    <string name="title_1">返回</string>
+    <string name="userlayout_text1">使用者資訊</string>
+    <string name="userlayout_text2">賬　　號：</string>
+    <string name="userlayout_text3">類　　別：</string>
+    <string name="userlayout_text4">性　　別：</string>
+    <string name="userlayout_text5">手機號碼：</string>
+    <string name="userlayout_text6">電子郵件：</string>
+    <string name="userlayout_text7">住　　址：</string>
+    <string name="userlayout_text8">視頻控制：</string>
+    <string name="userlayout_text9">其他控制：</string>
+    <string name="normal_account">普通帳號</string>
+    <string name="language_title">語言選擇</string>
+    <string name="copyRight_text"></string>
+    <string name="about">關於</string>
+    <string name="account_out">註銷</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_ok">確定</string>
+    <string name="btn_out">退出</string>
+    <string name="toast_3">此操作將會退出當前帳號！</string>
+    <string name="toast_4">退出後將停止推送告警信息！</string>
+
+    <!-- 使用者登錄和註冊介面-->
+    <string name="account_id_account">帳號</string>
+    <string name="account_id_password">密碼</string>
+    <string name="account_loginUp">登  錄</string>
+    <string name="account_register">註冊帳號</string>
+    <string name="register_account">請輸入帳號</string>
+    <string name="register_password">請輸入密碼</string>
+    <string name="register_sex">請輸入性別</string>
+    <string name="register_phone">請輸入電話</string>
+    <string name="register_email">請輸入郵箱</string>
+    <string name="sex_male">男</string>
+    <string name="sex_female">女</string>
+    <string name="register_ok">註冊完成</string>
+    <string name="account_toast_text1">用戶名或密碼不能為空！</string>
+    <string name="account_toast_text2">帳號或密碼錯誤！</string>
+
+    <!-- 語言介面-->
+    <string name="language_zh">簡體中文</string>
+    <string name="language_zh_rTW">繁體中文</string>
+    <string name="language_default">系統預設</string>
+
+
+</resources>
+

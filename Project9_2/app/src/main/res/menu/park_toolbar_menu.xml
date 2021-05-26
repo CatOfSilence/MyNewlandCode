@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_set_threshold"
+        android:title="设置阈值"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/action_set_camera"
+        android:title="设置摄像头地址"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/action_look_pic"
+        android:title="查看截图"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/action_set_cloud"
+        android:title="设置云平台地址"
+        app:showAsAction="withText" />
+</menu>

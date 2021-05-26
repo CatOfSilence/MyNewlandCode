@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.newland.smartpark">
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_smartpark"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon_smartpark"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.newland.smartpark.activity.GuideActivity"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.newland.smartpark.activity.LoginActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name="com.newland.smartpark.activity.HomeActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape">
+                <!--配置过滤器，点击通知栏，可以跳入主界面-->
+                <intent-filter>
+                    <action android:name="home" />
+                    <category android:name="android.intent.category.DEFAULT" />
+                </intent-filter>
+        </activity>
+        <activity android:name="com.newland.smartpark.activity.RegisteActivity"
+                  android:screenOrientation="landscape"/>
+        <activity android:name="com.newland.smartpark.activity.ShowActivity"
+                  android:screenOrientation="landscape"/>
+        <!--注册服务-->
+        <service android:name=".service.MyService"></service>
+    </application>
+
+</manifest>

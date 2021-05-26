@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/img_icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:src="@mipmap/icon_launcher"
+        />
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/img_icon"
+        android:layout_marginTop="10dp"
+        android:text="@string/app_name"
+        />
+
+    <EditText
+        android:id="@+id/account_id"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginRight="38dp"
+        android:layout_marginTop="35dp"
+        android:layout_below="@id/tv_name"
+        android:padding="5dp"
+        android:background="@drawable/bg_edittextview"
+        android:drawableLeft="@drawable/pic_edit_user"
+        android:drawablePadding="8dp"
+        android:hint="@string/account_id_account"
+        android:imeOptions="actionNext"
+        android:inputType="textEmailAddress"
+        android:maxLength="11"
+        android:singleLine="true"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+    <requestFocus />
+
+    <EditText
+        android:id="@+id/account_psw"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginRight="38dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/account_id"
+        android:drawablePadding="8dp"
+        android:padding="5dp"
+        android:background="@drawable/bg_edittextview"
+        android:drawableLeft="@drawable/pic_edit_pwd"
+        android:hint="@string/account_id_password"
+        android:imeOptions="actionDone"
+        android:maxLength="16"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+    <requestFocus />
+
+    <Button
+        android:id="@+id/btn_loginUp"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginRight="38dp"
+        android:layout_marginTop="35dp"
+        android:layout_below="@id/account_psw"
+        android:background="@drawable/bg_login_blue"
+        android:text="@string/account_loginUp"
+        android:textSize="18sp"
+        android:textColor="@color/colorWhite" />
+
+    <TextView
+        android:id="@+id/tv_registered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/account_register"
+        android:layout_below="@id/btn_loginUp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000" />
+</RelativeLayout>

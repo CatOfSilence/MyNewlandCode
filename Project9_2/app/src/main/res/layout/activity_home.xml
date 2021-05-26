@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ll_home"
+    android:background="@mipmap/bg_inner"
+    android:orientation="vertical"
+    android:gravity="center">
+    <!--标题栏toolbar-->
+    <include layout="@layout/toolbar" />
+    <!--侧滑菜单-->
+    <include layout="@layout/home_drawerlayout"/>
+</LinearLayout>

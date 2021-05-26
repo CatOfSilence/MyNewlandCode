@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical" 
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:src="@drawable/collection_thermometer" />
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:src="@drawable/collection_dropsofwater" />
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:src="@drawable/collection_gas" />
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:src="@drawable/collection_light" />
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:src="@drawable/collection_pm" />
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:src="@drawable/collection_pressure" />
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:src="@drawable/collection_smoke" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:src="@drawable/collection_co2" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:src="@drawable/collection_infrared_detector" />
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical" 
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/TextView08"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="温度"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/TextView07"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="湿度"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/TextView06"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="燃气"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/TextView05"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="光照"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="PM2.5"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="气压"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="烟雾"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Co2"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="人体红外"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical" 
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/TextView_v1_wendu"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="0"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/TextView_v1_shidu"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="0"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/TextView_v1_ranqi"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="0.0"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/TextView_v1_guangzhao"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="0"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/TextView_v1_PM25"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="0"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/TextView_v1_qiya"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="0"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/TextView_v1_yanwu"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="0"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/TextView_v1_co2"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="0"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/TextView_v1_rthw"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="无人"
+            android:textColor="#6a793f"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

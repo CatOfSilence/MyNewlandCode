@@ -1,0 +1,4 @@
+#Mon Jun 29 20:50:18 CST 2020
+base.0=E\:\\Workspace_old\\HJ\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

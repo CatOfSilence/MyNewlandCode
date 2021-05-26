@@ -1,0 +1,19 @@
+com.example.demo3
+dimen activity_horizontal_margin
+dimen activity_vertical_margin
+drawable ic_launcher
+id action_settings
+id btGetInfo
+id btOff
+id btOn
+id spinner
+id tvId
+id tvItem
+layout activity_main
+layout item
+menu main
+string action_settings
+string app_name
+string hello_world
+style AppBaseTheme
+style AppTheme

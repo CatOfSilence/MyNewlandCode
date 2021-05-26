@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+     <TextView
+        android:id="@+id/tvPerson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="100dp"
+        android:text="人体红外：" />
+
+    <TextView
+        android:id="@+id/tvPersonValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvPerson"
+        android:layout_alignBottom="@+id/tvPerson"
+        android:layout_toRightOf="@+id/tvPerson"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btGetInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvPerson"
+        android:layout_alignBottom="@+id/tvPerson"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="27dp"
+        android:onClick="myclick"
+        android:text="获取" />
+
+    <TextView
+        android:id="@+id/tvLamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btGetInfo"
+        android:layout_marginTop="55dp"
+        android:layout_toLeftOf="@+id/tvPersonValue"
+        android:text="路灯：" />
+
+    <Button
+        android:id="@+id/btLamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvLamp"
+        android:layout_alignBottom="@+id/tvLamp"
+        android:layout_alignLeft="@+id/btGetInfo"
+        android:onClick="myclick"
+        android:text="打开" />
+
+</RelativeLayout>

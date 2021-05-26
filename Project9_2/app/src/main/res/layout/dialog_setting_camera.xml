@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="370dp"
+              android:layout_height="wrap_content"
+              android:background="@android:color/white"
+              android:orientation="vertical">
+    <!--自定义对话框，线性布局水平方向-->
+
+    <!--第一部分标题栏-->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#257CFF"
+        android:gravity="center"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:text="设置摄像头地址"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.6"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="right"
+            android:text="IP："
+            android:textColor="@color/textcolor_black"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/et_video_ip"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp10"
+            android:layout_marginRight="@dimen/dp10"
+            android:layout_weight="5"
+            android:textSize="@dimen/sp16"
+            android:singleLine="true"
+            android:background="@drawable/bg_text_while_outer_ring_gray"
+            android:hint="摄像头ip,如192.168.0.2"
+            android:text="192.168.14.104"
+            android:padding="8dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp10"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textVideoView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.6"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="right"
+            android:text="用户名："
+            android:textColor="@color/textcolor_black"
+            android:textSize="@dimen/sp16" />
+
+        <EditText
+            android:id="@+id/et_video_username"
+            android:layout_width="0dp"
+            android:textSize="@dimen/sp16"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp10"
+            android:layout_marginRight="@dimen/dp10"
+            android:layout_weight="5"
+            android:singleLine="true"
+            android:background="@drawable/bg_text_while_outer_ring_gray"
+            android:hint="@string/username_tip"
+            android:text="admin"
+            android:padding="8dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dp10"
+        android:layout_marginTop="@dimen/dp10"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.6"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="right"
+            android:text="密码："
+            android:textColor="@color/textcolor_black"
+            android:textSize="@dimen/sp16" />
+
+        <EditText
+            android:id="@+id/et_video_pwd"
+            android:layout_width="0dp"
+            android:textSize="@dimen/sp16"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp10"
+            android:layout_marginRight="@dimen/dp10"
+            android:layout_weight="5"
+            android:singleLine="true"
+            android:background="@drawable/bg_text_while_outer_ring_gray"
+            android:hint="@string/pwd_tip"
+            android:inputType="textPassword"
+            android:text="admin"
+            android:padding="8dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.6"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="right"
+            android:singleLine="true"
+            android:text="Channel："
+            android:textColor="@color/textcolor_black"
+            android:textSize="@dimen/sp16" />
+
+        <EditText
+            android:id="@+id/et_video_channel"
+            android:layout_width="0dp"
+            android:textSize="@dimen/sp16"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp10"
+            android:layout_marginRight="@dimen/dp10"
+            android:layout_weight="5"
+            android:singleLine="true"
+            android:background="@drawable/bg_text_while_outer_ring_gray"
+            android:hint="请输入Channal号"
+            android:text="1"
+            android:padding="8dp" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="#cccccc"></View>
+    <!--确定，取消按钮-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+        <Button
+            android:id="@+id/btn_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="确定"
+            android:textColor="#257CFF"/>
+        <!--分割线-->
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#cccccc"></View>
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="取消"
+            android:textColor="#257CFF"/>
+    </LinearLayout>
+</LinearLayout>

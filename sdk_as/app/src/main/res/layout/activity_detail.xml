@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/layout_root_padding">
+
+
+        <LinearLayout
+            android:id="@+id/temp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/view_gas"
+            android:baselineAligned="false"
+            android:gravity="center_horizontal"
+            android:weightSum="7">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:orientation="vertical">
+
+
+                <EditText
+                    android:id="@+id/project_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="请填写项目id"
+                    android:visibility="gone"/>
+
+                <EditText
+                    android:id="@+id/project_tag"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="请填写项目tag"
+                    android:visibility="gone"/>
+
+                <EditText
+                    android:id="@+id/apiTag"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="请填写api标识,如需多个，使用逗号隔开"
+
+                    android:visibility="gone"
+                    />
+
+                <EditText
+                    android:id="@+id/device_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="请填写设备id"
+
+                    android:visibility="gone"
+                    />
+
+                <EditText
+                    android:id="@+id/key_word"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="关键字"
+
+                    android:visibility="gone"
+                    />
+
+                <EditText
+                    android:id="@+id/Data"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="请填写控制值"
+
+                    android:visibility="gone"
+                    />
+
+                <EditText
+                    android:id="@+id/NetWorkKind"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="联网方案 （可选，1：WIFI 2：以太网 3:蜂窝网络 4:蓝牙）	"
+
+                    android:visibility="gone"
+                    />
+
+                <EditText
+                    android:id="@+id/method"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="查询方式（1：XX分钟内 2：XX小时内 3：XX天内 4：XX周内 5：XX月内 6：按startDate与endDate指定日期查询）"
+
+                    android:visibility="gone"
+                    />
+
+                <EditText
+                    android:id="@+id/timeAgo"
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+                    android:hint="与Method配对使用表示'多少TimeAgo Method内'的数据，例：(Method=2,TimeAgo=30)表示30小时内的历史数据"
+
+                    android:visibility="gone"
+                    />
+
+                <EditText
+                    android:id="@+id/startTime"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="请填写开始时间"
+
+                    android:visibility="gone"
+                    />
+
+                <EditText
+                    android:id="@+id/endTime"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="请填写结束时间"
+
+                    android:visibility="gone"
+                    />
+
+                <EditText
+                    android:id="@+id/PageIndex"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="请填写pageIndex"
+
+                    android:visibility="gone"
+                    />
+
+                <EditText
+                    android:id="@+id/PageSize"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="请填写PageSize"
+
+                    android:visibility="gone"
+                    />
+
+                <EditText
+                    android:id="@+id/Protocol"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="通讯协议（1:TCP 2:MQTT 3:HTTP）"
+
+                    android:visibility="gone"
+                    />
+
+                <EditText
+                    android:id="@+id/ProjectIdOrTag"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="项目ID（一个数字）或标识码（一个32位字符串）"
+
+                    android:visibility="gone"
+                    />
+
+                <EditText
+                    android:id="@+id/device_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="设备名称（中英文、数字的6到15个字）"
+
+                    android:visibility="gone"
+                    />
+
+                <EditText
+                    android:id="@+id/device_tag"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="设备标识（英文、数字或其组合6到30个字符）"
+
+                    android:visibility="gone"
+                    />
+
+                <EditText
+                    android:id="@+id/device_Coordinate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="设备座标（可选，格式为经度值, 纬度值）"
+
+                    android:visibility="gone"
+                    />
+
+                <EditText
+                    android:id="@+id/device_DeviceImg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="设备头像（可选）"
+
+                    android:visibility="gone"
+                    />
+
+                <EditText
+                    android:id="@+id/sensor_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="传感器名称（中英文、数字或下划线的2到10个字符）"
+
+                    android:visibility="gone"
+                    />
+
+                <EditText
+                    android:id="@+id/TransType"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="传输类型（可选，0：只上报1：上报和下发2：报警3：故障，默认0）"
+
+                    android:visibility="gone"
+                    />
+
+                <EditText
+                    android:id="@+id/DataType"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="数据类型（可选，0：整数型1：浮点型2：布尔型3：字符型4：枚举型5：二进制型，默认0）"
+
+                    android:visibility="gone"
+                    />
+
+                <EditText
+                    android:id="@+id/TypeAttrs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="传输类型与数据类型的属性（可选，如枚举型值以半角逗号分隔：可爱，有在，装备，蜗牛）"
+
+                    android:visibility="gone"
+                    />
+
+                <EditText
+                    android:id="@+id/Unit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="单位（可选，定义传感器的单位）"
+
+                    android:visibility="gone"
+                    />
+
+                <EditText
+                    android:id="@+id/Precision"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="精度（可选，默认保留两位小数）"
+
+                    android:visibility="gone"
+                    />
+
+                <EditText
+                    android:id="@+id/OperType"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="操作类型（(只针对执行器)1：开关型 2：开关停型 3：按钮型 4：刻度型）"
+
+                    android:visibility="gone"
+                    />
+
+                <EditText
+                    android:id="@+id/OperTypeAttrs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="操作类型的附加属性（(只针对执行器)，JSON格式，如刻度型时定义：{'MaxRange' : 180 ,'MinRange' : 0, 'Step' : 10}）"
+
+                    android:visibility="gone"
+                    />
+
+                <EditText
+                    android:id="@+id/SerialNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="序列号（(只针对执行器)，可选，同一类型的多个以此区别，默认0）"
+
+                    android:visibility="gone"
+                    />
+
+                <EditText
+                    android:id="@+id/HttpIp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="IP地址（只针对摄像头）"
+
+                    android:visibility="gone"
+                    />
+
+                <EditText
+                    android:id="@+id/HttpPort"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="端口（只针对摄像头）"
+
+                    android:visibility="gone"
+                    />
+
+                <EditText
+                    android:id="@+id/UserName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="登录用户名(只针对摄像头)"
+
+                    android:visibility="gone"
+                    />
+
+                <EditText
+                    android:id="@+id/Password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="登录密码(只针对摄像头)"
+
+                    android:visibility="gone"
+                    />
+
+                <EditText
+                    android:id="@+id/Value"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="传感的最新值（有引号是字符串或枚举，无引号是整数型或浮点型，true|false是布尔值，其它为二进制型）"
+
+                    android:visibility="gone"
+                    />
+
+                <EditText
+                    android:id="@+id/RecordTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="值最新上传时间（格式：YYYY-MM-DD HH:mm）"
+
+                    android:visibility="gone"
+                    />
+
+                <EditText
+                    android:id="@+id/Sort"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="时间排序方式，DESC:倒序，ASC升序"
+
+                    android:visibility="gone"
+                    />
+
+                <EditText
+                    android:id="@+id/groupBy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="聚合方式（1：按分钟分组聚合 2：按小时分组聚合 3：按天分组聚合 4：按月分组聚合），默认2按小时聚合"
+
+                    android:visibility="gone"
+                    />
+
+                <EditText
+                    android:id="@+id/func"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="聚合函数（与GroupBy配对使用，可以是MAX：按最大值聚合 MIN：按最小值聚合 COUNT：按统计条数聚合），默认MAX最大值聚合"
+                    android:visibility="gone"
+                    />
+
+                <CheckBox
+                    android:id="@+id/cb_on_line"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="是否在线"
+                    android:visibility="gone"/>
+
+                <CheckBox
+                    android:id="@+id/cb_is_share"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="数据保密性"
+                    android:visibility="gone"/>
+
+                <CheckBox
+                    android:id="@+id/cb_IsTrans"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="数据上报状态"
+                    android:visibility="gone"/>
+
+                <Button
+
+                    android:id="@+id/launch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/view_gas"
+                    android:text="发送请求"/>
+
+                <RadioGroup
+                    android:id="@+id/device_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <RadioButton
+                        android:id="@+id/rb_sensor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="传感器"/>
+
+                    <RadioButton
+                        android:id="@+id/rb_actuator"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:text="执行器"/>
+
+                    <RadioButton
+                        android:id="@+id/rb_camera"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:text="摄像头"/>
+                </RadioGroup>
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/requestUrl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/view_gas"
+            android:textColor="#e42121"
+            android:textSize="20sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="@dimen/view_gas"
+            android:background="#000"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/postResult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/view_gas"
+                android:text="请求结果 : "
+                android:textIsSelectable="true"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

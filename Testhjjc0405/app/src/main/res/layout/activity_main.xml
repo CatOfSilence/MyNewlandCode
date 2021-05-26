@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_img"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="328dp"
+        android:layout_height="331dp"
+        android:background="#fff"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.983"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.186">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#0bc3fa"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="环境监测"
+                android:textColor="#fff"
+                android:textSize="35sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/kuang"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tv_wd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="温度：0℃"
+                android:textColor="#000"
+                android:textSize="35sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/kuang"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tv_sd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="湿度：0Rh"
+                android:textColor="#000"
+                android:textSize="35sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/kuang"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tv_co2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="空气质量：0"
+                android:textColor="#000"
+                android:textSize="35sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/kuang"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tv_light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="光照数据：0Lx"
+                android:textColor="#000"
+                android:textSize="35sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

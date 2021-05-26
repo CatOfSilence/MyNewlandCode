@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="℃"
+        android:textColor="#000"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tv_wd"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_wd" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="Rh"
+        android:textColor="#000"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tv_sd"
+        app:layout_constraintStart_toEndOf="@+id/tv_sd" />
+
+    <TextView
+        android:id="@+id/tv_wd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:text="0"
+        android:textColor="#000"
+        android:textSize="80sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tv"
+        app:layout_constraintStart_toEndOf="@+id/tv"
+        app:layout_constraintTop_toTopOf="@+id/tv" />
+
+    <TextView
+        android:id="@+id/tv_sd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:text="0"
+        android:textColor="#000"
+        android:textSize="80sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tv"
+        app:layout_constraintStart_toEndOf="@+id/tv3"
+        app:layout_constraintTop_toTopOf="@+id/tv" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="当前温度"
+        android:textColor="#000"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.075"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.085" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:text="当前湿度"
+        android:textColor="#000"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.085" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="1105dp"
+        android:layout_height="380dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tv"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.31">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:background="@drawable/kuang1"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="时间"
+                android:textColor="#000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/tv22"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/kuang1"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="数据类型"
+                android:textColor="#000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/tv33"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/kuang1"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="具体值"
+                android:textColor="#000"
+                android:textSize="30sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <GridView
+                android:id="@+id/gv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></GridView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="数据类型"
+        android:textColor="#000"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tv"
+        app:layout_constraintTop_toBottomOf="@+id/tv"
+        app:layout_constraintVertical_bias="0.120000005" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="8dp"
+        android:text="时间范围"
+        android:textColor="#000"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/sp1"
+        app:layout_constraintStart_toEndOf="@+id/sp1"
+        app:layout_constraintTop_toTopOf="@+id/sp1" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="8dp"
+        android:text="值范围"
+        android:textColor="#000"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/sp1"
+        app:layout_constraintStart_toEndOf="@+id/ed_time2"
+        app:layout_constraintTop_toTopOf="@+id/sp1" />
+
+    <Button
+        android:id="@+id/bt"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/myclick"
+        android:text="值范围"
+        android:onClick="query"
+        android:textColor="#000"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/sp1"
+        app:layout_constraintStart_toEndOf="@+id/ed_value2"
+        app:layout_constraintTop_toTopOf="@+id/sp1" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="~"
+        android:textColor="#000"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/sp1"
+        app:layout_constraintStart_toEndOf="@+id/ed_time1"
+        app:layout_constraintTop_toTopOf="@+id/sp1" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="~"
+        android:textColor="#000"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/sp1"
+        app:layout_constraintStart_toEndOf="@+id/ed_value1"
+        app:layout_constraintTop_toTopOf="@+id/sp1" />
+
+    <EditText
+        android:id="@+id/ed_time1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/kuang"
+        android:singleLine="true"
+        android:text=""
+        android:textColor="#000"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/sp1"
+        app:layout_constraintStart_toEndOf="@+id/textView3"
+        app:layout_constraintTop_toTopOf="@+id/sp1" />
+
+    <EditText
+        android:id="@+id/ed_value1"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/kuang"
+        android:text=""
+        android:textColor="#000"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/sp1"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toTopOf="@+id/sp1" />
+
+    <EditText
+        android:id="@+id/ed_value2"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/kuang"
+        android:text=""
+        android:textColor="#000"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/sp1"
+        app:layout_constraintStart_toEndOf="@+id/textView7"
+        app:layout_constraintTop_toTopOf="@+id/sp1" />
+
+    <EditText
+        android:id="@+id/ed_time2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/kuang"
+        android:text=""
+        android:singleLine="true"
+        android:textColor="#000"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/sp1"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toTopOf="@+id/sp1" />
+
+    <Spinner
+        android:id="@+id/sp1"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:background="@drawable/sp_tu"
+        android:entries="@array/fuck"
+        app:layout_constraintBottom_toBottomOf="@+id/textView2"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="@+id/textView2" />
+
+</android.support.constraint.ConstraintLayout>

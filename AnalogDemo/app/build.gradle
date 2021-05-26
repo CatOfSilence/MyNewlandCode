@@ -1,0 +1,38 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "30.0.2"
+
+    defaultConfig {
+        applicationId "com.example.analogdemo"
+        minSdkVersion 8
+        targetSdkVersion 21
+
+        ndk {
+            moduleName "app"
+            abiFilters "armeabi"
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    sourceSets{
+        main{
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+    compileOptions{
+        targetCompatibility 1.8
+        sourceCompatibility 1.8
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:21.0.3'
+    compile files('libs/Analog4150Library.jar')
+}

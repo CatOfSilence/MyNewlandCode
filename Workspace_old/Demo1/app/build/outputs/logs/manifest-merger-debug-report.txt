@@ -1,0 +1,72 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\Workspace\Demo1\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from E:\Workspace\Demo1\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from E:\Workspace\Demo1\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from E:\Workspace\Demo1\app\src\main\AndroidManifest.xml:2:1-26:12
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\Newland\.gradle\caches\transforms-1\files-1.1\support-v4-22.2.1.aar\513d9c6f464ab4611f43a68052bf6de9\AndroidManifest.xml:17:1-24:12
+INJECTED from E:\Workspace\Demo1\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from E:\Workspace\Demo1\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from E:\Workspace\Demo1\app\src\main\AndroidManifest.xml:2:1-26:12
+	package
+		ADDED from E:\Workspace\Demo1\app\src\main\AndroidManifest.xml:3:5-29
+		INJECTED from E:\Workspace\Demo1\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Workspace\Demo1\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from E:\Workspace\Demo1\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from E:\Workspace\Demo1\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Workspace\Demo1\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\Workspace\Demo1\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from E:\Workspace\Demo1\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from E:\Workspace\Demo1\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Workspace\Demo1\app\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from E:\Workspace\Demo1\app\src\main\AndroidManifest.xml:7:5-47
+INJECTED from E:\Workspace\Demo1\app\src\main\AndroidManifest.xml:7:5-47
+INJECTED from E:\Workspace\Demo1\app\src\main\AndroidManifest.xml:7:5-47
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\Newland\.gradle\caches\transforms-1\files-1.1\support-v4-22.2.1.aar\513d9c6f464ab4611f43a68052bf6de9\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\Newland\.gradle\caches\transforms-1\files-1.1\support-v4-22.2.1.aar\513d9c6f464ab4611f43a68052bf6de9\AndroidManifest.xml:20:5-43
+INJECTED from E:\Workspace\Demo1\app\src\main\AndroidManifest.xml:7:5-47
+INJECTED from E:\Workspace\Demo1\app\src\main\AndroidManifest.xml:7:5-47
+	android:targetSdkVersion
+		ADDED from E:\Workspace\Demo1\app\src\main\AndroidManifest.xml:7:15-44
+		INJECTED from E:\Workspace\Demo1\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Workspace\Demo1\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\Workspace\Demo1\app\src\main\AndroidManifest.xml
+		ADDED from E:\Workspace\Demo1\app\src\main\AndroidManifest.xml:7:5-47
+		INJECTED from E:\Workspace\Demo1\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from E:\Workspace\Demo1\app\src\main\AndroidManifest.xml:8:5-66
+	android:name
+		ADDED from E:\Workspace\Demo1\app\src\main\AndroidManifest.xml:8:22-64
+application
+ADDED from E:\Workspace\Demo1\app\src\main\AndroidManifest.xml:10:5-24:19
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\Newland\.gradle\caches\transforms-1\files-1.1\support-v4-22.2.1.aar\513d9c6f464ab4611f43a68052bf6de9\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\Newland\.gradle\caches\transforms-1\files-1.1\support-v4-22.2.1.aar\513d9c6f464ab4611f43a68052bf6de9\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from E:\Workspace\Demo1\app\src\main\AndroidManifest.xml:13:9-41
+	android:icon
+		ADDED from E:\Workspace\Demo1\app\src\main\AndroidManifest.xml:12:9-45
+	android:allowBackup
+		ADDED from E:\Workspace\Demo1\app\src\main\AndroidManifest.xml:11:9-35
+	android:theme
+		ADDED from E:\Workspace\Demo1\app\src\main\AndroidManifest.xml:14:9-40
+activity#com.nlecloud.demo1.MainActivity
+ADDED from E:\Workspace\Demo1\app\src\main\AndroidManifest.xml:15:9-23:20
+	android:label
+		ADDED from E:\Workspace\Demo1\app\src\main\AndroidManifest.xml:17:13-45
+	android:name
+		ADDED from E:\Workspace\Demo1\app\src\main\AndroidManifest.xml:16:13-59
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\Workspace\Demo1\app\src\main\AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from E:\Workspace\Demo1\app\src\main\AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from E:\Workspace\Demo1\app\src\main\AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\Workspace\Demo1\app\src\main\AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from E:\Workspace\Demo1\app\src\main\AndroidManifest.xml:21:27-74

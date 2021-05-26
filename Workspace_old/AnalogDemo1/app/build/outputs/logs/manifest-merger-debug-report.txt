@@ -1,0 +1,68 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\Workspace\AnalogDemo1\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from E:\Workspace\AnalogDemo1\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from E:\Workspace\AnalogDemo1\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from E:\Workspace\AnalogDemo1\app\src\main\AndroidManifest.xml:2:1-25:12
+MERGED from [com.android.support:support-v4:21.0.3] C:\Users\Newland\.gradle\caches\transforms-1\files-1.1\support-v4-21.0.3.aar\ac722a2ca590cdcb495c7d798dbed786\AndroidManifest.xml:14:4-17:12
+INJECTED from E:\Workspace\AnalogDemo1\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from E:\Workspace\AnalogDemo1\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from E:\Workspace\AnalogDemo1\app\src\main\AndroidManifest.xml:2:1-25:12
+	package
+		ADDED from E:\Workspace\AnalogDemo1\app\src\main\AndroidManifest.xml:3:5-37
+		INJECTED from E:\Workspace\AnalogDemo1\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Workspace\AnalogDemo1\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from E:\Workspace\AnalogDemo1\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from E:\Workspace\AnalogDemo1\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Workspace\AnalogDemo1\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\Workspace\AnalogDemo1\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from E:\Workspace\AnalogDemo1\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from E:\Workspace\AnalogDemo1\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Workspace\AnalogDemo1\app\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from E:\Workspace\AnalogDemo1\app\src\main\AndroidManifest.xml:7:5-47
+INJECTED from E:\Workspace\AnalogDemo1\app\src\main\AndroidManifest.xml:7:5-47
+INJECTED from E:\Workspace\AnalogDemo1\app\src\main\AndroidManifest.xml:7:5-47
+MERGED from [com.android.support:support-v4:21.0.3] C:\Users\Newland\.gradle\caches\transforms-1\files-1.1\support-v4-21.0.3.aar\ac722a2ca590cdcb495c7d798dbed786\AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:support-v4:21.0.3] C:\Users\Newland\.gradle\caches\transforms-1\files-1.1\support-v4-21.0.3.aar\ac722a2ca590cdcb495c7d798dbed786\AndroidManifest.xml:15:5-42
+INJECTED from E:\Workspace\AnalogDemo1\app\src\main\AndroidManifest.xml:7:5-47
+INJECTED from E:\Workspace\AnalogDemo1\app\src\main\AndroidManifest.xml:7:5-47
+	android:targetSdkVersion
+		ADDED from E:\Workspace\AnalogDemo1\app\src\main\AndroidManifest.xml:7:15-44
+		INJECTED from E:\Workspace\AnalogDemo1\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Workspace\AnalogDemo1\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\Workspace\AnalogDemo1\app\src\main\AndroidManifest.xml
+		ADDED from E:\Workspace\AnalogDemo1\app\src\main\AndroidManifest.xml:7:5-47
+		INJECTED from E:\Workspace\AnalogDemo1\app\src\main\AndroidManifest.xml
+application
+ADDED from E:\Workspace\AnalogDemo1\app\src\main\AndroidManifest.xml:9:5-23:19
+MERGED from [com.android.support:support-v4:21.0.3] C:\Users\Newland\.gradle\caches\transforms-1\files-1.1\support-v4-21.0.3.aar\ac722a2ca590cdcb495c7d798dbed786\AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:support-v4:21.0.3] C:\Users\Newland\.gradle\caches\transforms-1\files-1.1\support-v4-21.0.3.aar\ac722a2ca590cdcb495c7d798dbed786\AndroidManifest.xml:16:5-19
+	android:label
+		ADDED from E:\Workspace\AnalogDemo1\app\src\main\AndroidManifest.xml:12:9-41
+	android:icon
+		ADDED from E:\Workspace\AnalogDemo1\app\src\main\AndroidManifest.xml:11:9-45
+	android:allowBackup
+		ADDED from E:\Workspace\AnalogDemo1\app\src\main\AndroidManifest.xml:10:9-35
+	android:theme
+		ADDED from E:\Workspace\AnalogDemo1\app\src\main\AndroidManifest.xml:13:9-40
+activity#com.example.analogdemo.MainActivity
+ADDED from E:\Workspace\AnalogDemo1\app\src\main\AndroidManifest.xml:14:9-22:20
+	android:label
+		ADDED from E:\Workspace\AnalogDemo1\app\src\main\AndroidManifest.xml:16:13-45
+	android:name
+		ADDED from E:\Workspace\AnalogDemo1\app\src\main\AndroidManifest.xml:15:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\Workspace\AnalogDemo1\app\src\main\AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from E:\Workspace\AnalogDemo1\app\src\main\AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from E:\Workspace\AnalogDemo1\app\src\main\AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\Workspace\AnalogDemo1\app\src\main\AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from E:\Workspace\AnalogDemo1\app\src\main\AndroidManifest.xml:20:27-74

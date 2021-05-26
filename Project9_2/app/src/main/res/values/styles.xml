@@ -1,0 +1,76 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--去除系统自带标题栏-->
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="MyEditText">
+        <item name="android:textColor">@color/gray_btn</item>
+        <item name="android:background">@mipmap/input_normal</item>
+    </style>
+    <!--主界面RadioButton样式-->
+    <style name="home_RadioButtonStyle">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:button">@null</item>
+        <item name="android:paddingTop">20dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:background">@drawable/radio_button_gray_selector</item>
+    </style>
+
+    <!--弹出菜单样式-->
+    <style name="OverflowMenuStyle" parent="@style/Widget.AppCompat.PopupMenu.Overflow">
+        <!-- 是否覆盖Toolbar，默认为true，即盖住 -->
+        <item name="overlapAnchor">false</item>
+        <!-- 弹出层背景颜色 -->
+        <item name="android:popupBackground">#eeedee</item>
+        <!-- 弹出层垂直方向上的偏移，即在竖直方向上距离Toolbar的距离，值为负则会盖住Toolbar-->
+        <item name="android:dropDownVerticalOffset">0dp</item>
+        <!-- 弹出层水平方向上的偏移，即距离屏幕左边的距离，负值会导致右边出现空隙 -->
+        <item name="android:dropDownHorizontalOffset">10dp</item>
+        <!-- 设置弹出菜单文字颜色 -->
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    <!--toolbar弹出菜单主题-->
+    <style name="AppToolbarPopupTheme" parent="@style/ThemeOverlay.AppCompat.Light">
+        <!--弹出菜单样式-->
+        <item name="actionOverflowMenuStyle">@style/OverflowMenuStyle</item>
+        <!--toolbar menu分割线-->
+        <item name="android:dropDownListViewStyle">@style/AppDropDownListViewStyle</item>
+    </style>
+    <!--toolbar menu分割线-->
+    <style name="AppDropDownListViewStyle" parent="Widget.AppCompat.ListView.DropDown">
+        <item name="android:divider">#cccccc</item>
+        <item name="android:dividerHeight">1dp</item>
+    </style>
+    <!--修改toolbar menu默认图标-->
+    <style name="ActionButton.Overflow.Setting" parent="android:style/Widget.Holo.Light.ActionButton.Overflow">
+        <item name="android:src">@mipmap/btn_setting</item>
+    </style>
+    <!--toolbar主题-->
+    <style name="AppToolBarTitleTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- actionOverflowButtonStyle，该属性为设置菜单按钮的样式的属性-->
+        <item name="actionOverflowButtonStyle">@style/ActionButton.Overflow.Setting</item>
+    </style>
+    !--设置阈值对话框主题-->
+    <style name="Dialog" parent="Theme.AppCompat.Light.Dialog">
+    </style>
+    <style name="register_edit_style">
+        <item name="android:layout_marginRight">@dimen/reg_right</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:gravity">right|center</item>
+        <item name="android:drawableRight">@mipmap/apply_now_gray</item>
+        <item name="android:background">@null</item>
+    </style>
+    <style name="text_white">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+</resources>

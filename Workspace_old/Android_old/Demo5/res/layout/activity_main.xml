@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/tvLight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="100dp"
+        android:text="光照：" />
+
+    <TextView
+        android:id="@+id/tvLightValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvLight"
+        android:layout_alignBottom="@+id/tvLight"
+        android:layout_toRightOf="@+id/tvLight"
+        android:text="N/A" />
+
+    <Button
+        android:id="@+id/btGetInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvLightValue"
+        android:layout_alignBottom="@+id/tvLightValue"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="27dp"
+        android:onClick="myclick"
+        android:text="获取" />
+
+</RelativeLayout>

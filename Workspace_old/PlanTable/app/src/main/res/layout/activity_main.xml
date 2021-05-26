@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"></RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2">
+
+        <CheckBox
+            android:id="@+id/cb1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:enabled="true"
+            android:gravity="center"
+            android:text="1.一章单词1-2小时(晚上复习一次)"
+            android:textSize="20sp"
+            android:visibility="visible"></CheckBox>
+
+        <CheckBox
+            android:id="@+id/cb2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/cb1"
+            android:gravity="center"
+            android:text="2.一小时语法学习(视频课)"
+            android:textSize="20sp"></CheckBox>
+
+        <CheckBox
+            android:id="@+id/cb3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/cb2"
+            android:gravity="center"
+            android:text="3.两小时专业课学习"
+            android:textSize="20sp"></CheckBox>
+
+        <CheckBox
+            android:id="@+id/cb4"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/cb3"
+            android:gravity="center"
+            android:text="4.睡前词汇复习all"
+            android:textSize="20sp"></CheckBox>
+        <Button
+            android:id="@+id/Bt1"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:text="完成"
+            android:textSize="20sp"
+            android:layout_below="@id/cb4"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="30dp"></Button>
+    </RelativeLayout>
+</LinearLayout>

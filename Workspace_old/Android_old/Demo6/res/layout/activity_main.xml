@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ >
+
+    <TextView
+        android:id="@+id/tvLine"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_centerInParent="true"
+        android:background="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/tvFan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvLine"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:text="风扇：" />
+
+    <Button
+        android:id="@+id/btFan"
+        android:onClick="myclick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvFan"
+        android:layout_alignBottom="@+id/tvFan"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/tvFan"
+        android:text="打开" />
+
+    <TextView
+        android:id="@+id/tvLamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvFan"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/btFan"
+        android:text="路灯：" />
+
+    <Button
+        android:id="@+id/btLamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvLamp"
+        android:layout_alignBottom="@+id/tvLamp"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/tvLamp"
+        android:onClick="myclick"
+        android:text="打开" />
+
+    <TextView
+        android:id="@+id/tvHumidity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvLine"
+        android:layout_alignLeft="@+id/tvFan"
+        android:layout_marginBottom="30dp"
+        android:text="湿度：" />
+
+    <TextView
+        android:id="@+id/tvTemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvHumidity"
+        android:layout_alignLeft="@+id/tvHumidity"
+        android:layout_marginBottom="30dp"
+        android:text="温度：" />
+
+    <Button
+        android:id="@+id/btGetInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvHumidity"
+        android:layout_alignRight="@+id/btLamp"
+        android:text="获取"
+        android:onClick="myclick" />
+
+    <TextView
+        android:id="@+id/tvTemperatureValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvTemperature"
+        android:layout_alignBottom="@+id/tvTemperature"
+        android:layout_toRightOf="@+id/tvTemperature"
+        android:text="N/A" />
+
+    <TextView
+        android:id="@+id/tvHumidityValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvTemperatureValue"
+        android:layout_below="@+id/tvTemperature"
+        android:text="N/A" />
+
+</RelativeLayout>

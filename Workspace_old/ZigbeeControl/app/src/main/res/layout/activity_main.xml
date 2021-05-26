@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".MainActivity">
+
+    <View
+        android:layout_width="1220dp"
+        android:layout_height="wrap_content"
+        android:layerType="software"
+        app:layout_constraintTop_toTopOf="@id/tv3"
+        app:layout_constraintBottom_toBottomOf="@id/tv4"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="@drawable/bg_line"/>
+
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="环境情况"
+        android:textColor="#000"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="光照值："
+        android:textColor="#000"
+        android:textSize="40sp"
+        app:layout_constraintHorizontal_bias="2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="@id/tv1"
+        app:layout_constraintTop_toBottomOf="@id/tv1" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="温度值："
+        android:textColor="#000"
+        android:textSize="40sp"
+        app:layout_constraintHorizontal_bias="2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="@id/tv1"
+        app:layout_constraintTop_toBottomOf="@id/tv2" />
+
+    <TextView
+        android:id="@+id/tv_light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit"
+        android:maxLength="5"
+        android:paddingLeft="5dp"
+        android:textColor="#000"
+        android:textSize="40sp"
+        app:layout_constraintLeft_toRightOf="@id/tv2"
+        app:layout_constraintTop_toTopOf="@id/tv2" />
+
+    <TextView
+        android:id="@+id/tv_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit"
+        android:maxLength="5"
+        android:paddingLeft="5dp"
+        android:textColor="#000"
+        android:textSize="40sp"
+        app:layout_constraintLeft_toRightOf="@id/tv3"
+        app:layout_constraintTop_toTopOf="@id/tv3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="Lx"
+        android:textColor="#000"
+        android:textSize="40sp"
+        app:layout_constraintBaseline_toBaselineOf="@id/tv2"
+        app:layout_constraintLeft_toRightOf="@id/tv_light" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="℃"
+        android:textColor="#000"
+        android:textSize="40sp"
+        app:layout_constraintBaseline_toBaselineOf="@id/tv3"
+        app:layout_constraintLeft_toRightOf="@id/tv_temp" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="控制规则"
+        android:textColor="#000"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.48" />
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="光照低于"
+        android:textColor="#000"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="@id/tv1"
+        app:layout_constraintTop_toBottomOf="@id/tv1"
+        app:layout_constraintVertical_bias="0.52" />
+
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="温度高于"
+        android:textColor="#000"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="@id/tv1"
+        app:layout_constraintTop_toBottomOf="@id/tv1"
+        app:layout_constraintVertical_bias="0.66" />
+
+    <EditText
+        android:id="@+id/ed_light1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit"
+        android:inputType="number"
+        android:paddingLeft="5dp"
+        android:text="200"
+        android:textColor="#000"
+        android:textSize="40sp"
+        app:layout_constraintLeft_toRightOf="@id/tv5"
+        app:layout_constraintTop_toTopOf="@id/tv5" />
+
+    <EditText
+        android:id="@+id/ed_temp1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit"
+        android:inputType="number"
+        android:paddingLeft="5dp"
+        android:text="30"
+        android:textColor="#000"
+        android:textSize="40sp"
+        app:layout_constraintLeft_toRightOf="@id/tv6"
+        app:layout_constraintTop_toTopOf="@id/tv6" />
+
+    <TextView
+        android:id="@+id/tv7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Lx照明灯亮，光照高于"
+        android:textColor="#000"
+        android:textSize="40sp"
+        app:layout_constraintLeft_toRightOf="@id/ed_light1"
+        app:layout_constraintTop_toTopOf="@id/ed_light1" />
+
+    <TextView
+        android:id="@+id/tv8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="℃风扇启动，温度低于"
+        android:textColor="#000"
+        android:textSize="40sp"
+        app:layout_constraintRight_toRightOf="@id/tv7"
+        app:layout_constraintTop_toTopOf="@id/ed_temp1" />
+
+    <EditText
+        android:id="@+id/ed_light2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit"
+        android:inputType="number"
+        android:paddingLeft="5dp"
+        android:text="100"
+        android:textColor="#000"
+        android:textSize="40sp"
+        app:layout_constraintLeft_toRightOf="@id/tv7"
+        app:layout_constraintTop_toTopOf="@id/tv7" />
+
+    <EditText
+        android:id="@+id/ed_temp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit"
+        android:inputType="number"
+        android:paddingLeft="5dp"
+        android:text="30"
+        android:textColor="#000"
+        android:textSize="40sp"
+        app:layout_constraintLeft_toLeftOf="@id/ed_light2"
+        app:layout_constraintTop_toTopOf="@id/tv8" />
+
+    <TextView
+        android:id="@+id/tv9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Lx照明灯灭。"
+        android:textColor="#000"
+        android:textSize="40sp"
+        app:layout_constraintLeft_toRightOf="@id/ed_light2"
+        app:layout_constraintTop_toTopOf="@id/ed_light2" />
+
+    <TextView
+        android:id="@+id/tv10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="℃风扇停止。"
+        android:textColor="#000"
+        android:textSize="40sp"
+        app:layout_constraintLeft_toLeftOf="@id/tv9"
+        app:layout_constraintLeft_toRightOf="@id/ed_temp2"
+        app:layout_constraintRight_toRightOf="@id/tv9"
+        app:layout_constraintTop_toTopOf="@id/ed_temp2" />
+
+    <Button
+        android:id="@+id/bt_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/click"
+        android:text="启动监测"
+        android:textColor="#000"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.87" />
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="错误信息：请将规则临界点填写完整，临界点仅支持正整数。"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.26"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.98" />
+</android.support.constraint.ConstraintLayout>
